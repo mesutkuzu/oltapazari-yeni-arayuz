@@ -1,0 +1,96 @@
+{
+  "interactions": [
+    {
+      "indicatorIndex": "1",
+      "selected": [
+        "categories"
+      ],
+      "solidOpacity": "0.646657",
+      "url": "#categories"
+    },
+    {
+      "indicatorIndex": "2",
+      "selected": [
+        "favorites"
+      ],
+      "solidOpacity": "0.253162",
+      "url": "#catalog?favorites=1"
+    },
+    {
+      "indicatorIndex": "3",
+      "selected": [
+        "cart"
+      ],
+      "solidOpacity": "0.250072",
+      "url": "#cart"
+    },
+    {
+      "indicatorIndex": "4",
+      "selected": [
+        "account"
+      ],
+      "solidOpacity": "0.0843516",
+      "url": "#account"
+    },
+    {
+      "indicatorIndex": "0",
+      "selected": [
+        "home"
+      ],
+      "solidOpacity": "0.457355",
+      "url": "#home"
+    }
+  ],
+  "layout": [
+    {
+      "headerFavoritesVisible": false,
+      "minTabWidth": 61.1953125,
+      "mobileVisible": true,
+      "scrollWidth": 320,
+      "selected": "favorites",
+      "selectionDuration": "0.28s, 0.18s",
+      "solidOpacity": "1",
+      "width": 320
+    },
+    {
+      "headerFavoritesVisible": false,
+      "minTabWidth": 75.1953125,
+      "mobileVisible": true,
+      "scrollWidth": 390,
+      "selected": "favorites",
+      "selectionDuration": "0.28s, 0.18s",
+      "solidOpacity": "1",
+      "width": 390
+    },
+    {
+      "headerFavoritesVisible": false,
+      "minTabWidth": 117.1953125,
+      "mobileVisible": true,
+      "scrollWidth": 600,
+      "selected": "favorites",
+      "selectionDuration": "0.28s, 0.18s",
+      "solidOpacity": "1",
+      "width": 600
+    },
+    {
+      "headerFavoritesVisible": true,
+      "minTabWidth": 0,
+      "mobileVisible": false,
+      "scrollWidth": 601,
+      "selected": "favorites",
+      "selectionDuration": "0s",
+      "solidOpacity": "1",
+      "width": 601
+    },
+    {
+      "headerFavoritesVisible": true,
+      "minTabWidth": 0,
+      "mobileVisible": false,
+      "scrollWidth": 1280,
+      "selected": "favorites",
+      "selectionDuration": "0s",
+      "solidOpacity": "1",
+      "width": 1280
+    }
+  ]
+}

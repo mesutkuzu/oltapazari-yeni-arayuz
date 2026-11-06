@@ -1,3 +1,13 @@
+# Mobil gezinme doğrulaması — sürüm 8
+
+7 Kasım 2026. Mobilde beş sekme gerçek tıklamalarla değiştirildi; her geçişte yalnız doğru sekmede `aria-current="page"`, dolu ikon ve seçim vurgusu görüldü. Vurgu 280 ms, ikon geçişi 180–240 ms; CSS hareket azaltma tercihini destekliyor.
+
+320, 390, 600, 601 ve 1280 px genişliklerde kontrol edildi: yatay taşma yok. 600 px ve altında üst Favorilerim gizli, alt menü görünür; 601 px ve üstünde üst kısayol görünür, alt menü gizli. Sonuçlar `qa-navigation-v8.json`, görünüm `preview/mobile-navigation-v8.jpg` içinde.
+
+Akış testleri 21/21 geçti; yeni regresyon, alt sayfaların tek ana sekmeye eşlenmesini kontrol ediyor. Önceki değişmeden kalan kontrollerle toplam 104 otomatik kontrol bulunuyor.
+
+---
+
 # Güncel doğrulama — 7 Kasım 2026, sürüm 7
 
 ## Otomatik kontroller

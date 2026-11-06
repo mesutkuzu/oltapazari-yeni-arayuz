@@ -53,14 +53,14 @@ node checks/account.cjs
 node checks/homepage.cjs
 ```
 
-Beş kontrol dosyasında 103 otomatik kontrol geçmektedir. Bunlar kullanıcı araştırması veya bağımsız erişilebilirlik sertifikası değildir. Güncel tarayıcı doğrulamaları [QA.md](QA.md), tasarım kararları ve araştırma kaynakları [UX-REVIEW.md](UX-REVIEW.md) dosyasındadır.
+Beş kontrol dosyasında 104 otomatik kontrol geçmektedir. Bunlar kullanıcı araştırması veya bağımsız erişilebilirlik sertifikası değildir. Güncel tarayıcı doğrulamaları [QA.md](QA.md), tasarım kararları ve araştırma kaynakları [UX-REVIEW.md](UX-REVIEW.md) dosyasındadır.
 
 
 Son etkileşim düzenlemeleri: kart ve detay fotoğrafında 44 × 44 px kalp düğmesi; karttan doğrudan sepete ekleme; karşılaştırma bağlantısı ilgili ürün alanında (sayfanın üzerine binen sürekli çubuk yok). Kaynaktaki tüm gözlenen galeri fotoğrafları aktarılmıştır. 11 ürün sayfasındaki 16 alışveriş değerlendirmesi, maskeli yazarlar ve üç ayrı değerlendirme ölçütüyle korunmuştur; genel ürün puanı üretilmemiştir. Bildirim tercihi, ürün bağlantısını kopyalama ve değerlendirme taslağı arayüzleri de yereldir.
 
 Son menü düzeni: düğme arama çubuğunun hemen solundadır ve soldan panel açar. Açılış sayfa adresini değiştirmez; Escape, Kapat ve bölüm seçimi paneli kapatır. Av türleri üst gezinmede ve kategorilerde Ekipmana göre / Av türüne göre sekmelerinde görünür. Kategori ve marka kartlarında genel dekoratif ikonlar kaldırılmıştır.
 
-Favorilere erişim: kart ve detay kalplerine ek olarak üst başlıkta doğrudan Favorilerim kısayolu bulunur. Menünün ilk görünen bölümünde Favorilerim ve Sepetim kısayolları vardır; kaydırma veya hesap sayfası gerekmez.
+Favorilere erişim: kart ve detay kalplerine ek olarak masaüstü başlığında ve mobil alt menüde doğrudan Favorilerim kısayolu bulunur. Menünün ilk görünen bölümünde Favorilerim ve Sepetim kısayolları vardır; kaydırma veya hesap sayfası gerekmez.
 
 
 ## 7 Kasım: yeni arayüz ve yönetilebilir ana sayfa
@@ -72,3 +72,8 @@ Favorilere erişim: kart ve detay kalplerine ek olarak üst başlıkta doğrudan
 - `homepage.json` başlık, açıklama, düğme, görsel, kategori kartı ve ürün seçkilerini yönetir. Geçersiz veya eksik dosyada güvenli varsayılanlar kullanılır. Kategori `imageFrame` değeri `contain`, `rod-detail` veya `line-spool` olabilir; görsel çerçevesi kart sıralamasından bağımsızdır.
 
 **Mevcut KMK yönetim paneli bağlı değildir.** JSON dosyası bir içerik sözleşmesidir; canlı tema/panel uyumluluğu ancak KMK şablonları ve servisleriyle entegrasyon sonrası doğrulanabilir. Devir ve eşleme planı: [INTEGRATION.md](INTEGRATION.md). GitHub Pages yayını arayüz önizlemesidir; KMK üretim entegrasyonunun tamamlandığı anlamına gelmez.
+
+
+## Mobil gezinme — sürüm 8
+
+Mobil alt menüde seçili sekme dolu mavi ikon, renkli zemin ve 280 ms kayan vurgu ile gösterilir. Diğer ikonlar çizgisel kalır. Hareket azaltma tercihi animasyonu kapatır. Mobil başlıktaki yinelenen Favorilerim kaldırıldı; masaüstü kısayolu korunur. Filtre, karşılaştırma ve seçim yardımcısı Kategoriler grubunda; hesap ve satıcı ekranları Hesabım grubunda gösterilir.
