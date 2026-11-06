@@ -2,7 +2,7 @@
 
 Olta Pazarı’nın orijinal logosunu ve mavi renklerini koruyan, alıcıya odaklı mobil ve masaüstü arayüz. Yayın: [GitHub Pages](https://mesutkuzu.github.io/oltapazari-yeni-arayuz/).
 
-Ana sayfa **Fırsat Avı** ve **Mağazalardan Seçili Ürünler** ile başlar. Kategoriler doğrudan gezinme alanındadır; av türleri ayrı sayfada keşfedilir. Menü, hesap, kategori ve sepet normal sayfa yollarıyla açılır. Filtreler, ürün listesinin bağlamını koruyan bir çekmecede açılır.
+Ana sayfa **Fırsat Avı** ve **Mağazalardan Seçili Ürünler** ile başlar. Kategoriler doğrudan gezinme alanındadır; av türleri ayrı sayfada keşfedilir. Menü, aramanın hemen solundaki düğmeden soldan açılan çekmecedir. Hesap, kategori ve sepet normal sayfa yollarıyla açılır. Filtreler, ürün listesinin bağlamını koruyan bir çekmecede açılır.
 
 ## Çalışan arayüz
 
@@ -56,3 +56,5 @@ Dört kontrol dosyasında 59 otomatik kontrol geçmektedir. Bunlar kullanıcı a
 
 
 Son etkileşim düzenlemeleri: kart ve detay fotoğrafında 44 × 44 px kalp düğmesi; karttan doğrudan sepete ekleme; karşılaştırma bağlantısı ilgili ürün alanında (sayfanın üzerine binen sürekli çubuk yok). Kaynaktaki tüm gözlenen galeri fotoğrafları aktarılmıştır. 11 ürün sayfasındaki 16 alışveriş değerlendirmesi, maskeli yazarlar ve üç ayrı değerlendirme ölçütüyle korunmuştur; genel ürün puanı üretilmemiştir. Bildirim tercihi, ürün bağlantısını kopyalama ve değerlendirme taslağı arayüzleri de yereldir.
+
+Son menü düzeni: düğme arama çubuğunun hemen solundadır ve soldan panel açar. Açılış sayfa adresini değiştirmez; Escape, Kapat ve bölüm seçimi paneli kapatır. Av türleri üst gezinmede ve kategorilerde Ekipmana göre / Av türüne göre sekmelerinde görünür. Kategori ve marka kartlarında genel dekoratif ikonlar kaldırılmıştır.

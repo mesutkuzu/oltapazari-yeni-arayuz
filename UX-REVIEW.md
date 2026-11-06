@@ -14,7 +14,7 @@ Av türleri için beyaz stüdyo zemini, sabit açı, benzer ölçek ve ışık k
 
 | Alan | Son davranış | Kullanıcıya etkisi |
 |---|---|---|
-| Menü ve hesap | Tam sayfa yolları, gruplanmış başlıklar ve açıklayıcı etiketler | Gezinme beklenmedik pencerelere dönüşmez. |
+| Menü ve hesap | Aramanın solundaki menü düğmesi sol çekmeceyi açar; hesap normal sayfadır | Menü açılırken adres ve liste bağlamı değişmez; seçilen bölüm normal sayfaya gider. |
 | Kategoriler | 116 kategori düğümü; üst/alt kategori yolları yereldir | Kullanıcı kategoriye tıklayınca eski siteye gönderilmez. |
 | Markalar ve mağazalar | Aranabilir dizinler, yerel satıcı kataloğu | Ürün keşfi aynı arayüz içinde sürer. |
 | Ürün kartı | Satışa uygun, seçeneksiz üründe doğrudan Sepete ekle | Listeyi kaybetmeden alışverişe devam edilebilir. |
@@ -31,7 +31,7 @@ Av türleri için beyaz stüdyo zemini, sabit açı, benzer ölçek ve ışık k
 | Bilgi sayfaları | 19 yerel içerik; uzun metinler özet olarak etiketli | Destek ve rehber okunabilir; tam sözleşme iddiası yapılmaz. |
 | Yükleme sorunu | Yeniden deneme eylemi | Kullanıcı boş ekranda kalmaz. |
 
-Filtre çekmecesi yalnızca listeyi daraltma işi içindir. Açılış/kapanışta odak yönetilir; kapatma ve Escape davranışı kullanılır. Menü, hesap ve diğer sayfa geçişleri normal gezinme olarak kalır. Buton ve simge etiketleri yapılan işlemi adlandırır. Fotoğraf, açıklama, karşılaştırma ve boş durumlarda geri dönüş veya sonraki adım bulunur.
+Filtre çekmecesi yalnızca listeyi daraltma işi içindir. Açılış/kapanışta odak yönetilir; kapatma ve Escape davranışı kullanılır. Menü sol çekmecedir; içindeki bir bölüm seçilince panel kapanır ve normal sayfa açılır. Hesap ve diğer sayfa geçişleri normal gezinme olarak kalır. Buton ve simge etiketleri yapılan işlemi adlandırır. Fotoğraf, açıklama, karşılaştırma ve boş durumlarda geri dönüş veya sonraki adım bulunur.
 
 ## Filtre ve sıralama ayrıntıları
 
@@ -91,3 +91,5 @@ Gerçek kullanıcılarla ürün bulma, filtreleme, seçenek seçme, ilan biçimi
 
 
 Son etkileşim düzenlemeleri: kart ve detay fotoğrafında 44 × 44 px kalp düğmesi; karttan doğrudan sepete ekleme; karşılaştırma bağlantısı ilgili ürün alanında (sayfanın üzerine binen sürekli çubuk yok). Kaynaktaki tüm gözlenen galeri fotoğrafları aktarılmıştır. 11 ürün sayfasındaki 16 alışveriş değerlendirmesi, maskeli yazarlar ve üç ayrı değerlendirme ölçütüyle korunmuştur; genel ürün puanı üretilmemiştir. Bildirim tercihi, ürün bağlantısını kopyalama ve değerlendirme taslağı arayüzleri de yereldir.
+
+Son menü düzeni: düğme arama çubuğunun hemen solundadır ve soldan panel açar. Açılış sayfa adresini değiştirmez; Escape, Kapat ve bölüm seçimi paneli kapatır. Av türleri üst gezinmede ve kategorilerde Ekipmana göre / Av türüne göre sekmelerinde görünür. Kategori ve marka kartlarında genel dekoratif ikonlar kaldırılmıştır.

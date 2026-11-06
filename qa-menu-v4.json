@@ -1,0 +1,225 @@
+{
+  "date": "2026-11-07",
+  "checks": [
+    {
+      "avEntry": true,
+      "logoLeft": 138,
+      "menuCount": 1,
+      "menuLeft": 14,
+      "scrollWidth": 320,
+      "title": "Fırsat Avı",
+      "width": 320,
+      "route": "home",
+      "expectedWidth": 320
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 138,
+      "menuCount": 1,
+      "menuLeft": 14,
+      "scrollWidth": 320,
+      "title": "Kategoriler",
+      "width": 320,
+      "route": "categories",
+      "expectedWidth": 320
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 138,
+      "menuCount": 1,
+      "menuLeft": 14,
+      "scrollWidth": 320,
+      "title": "Av türleri",
+      "width": 320,
+      "route": "techniques",
+      "expectedWidth": 320
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 138,
+      "menuCount": 1,
+      "menuLeft": 14,
+      "scrollWidth": 320,
+      "title": "Nereye gitmek istersin?",
+      "width": 320,
+      "route": "menu",
+      "expectedWidth": 320
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 138,
+      "menuCount": 1,
+      "menuLeft": 0,
+      "scrollWidth": 320,
+      "title": "Sepetim",
+      "width": 320,
+      "route": "checkout?step=address",
+      "expectedWidth": 320
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 194,
+      "menuCount": 1,
+      "menuLeft": 16,
+      "scrollWidth": 390,
+      "title": "Fırsat Avı",
+      "width": 390,
+      "route": "home",
+      "expectedWidth": 390
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 194,
+      "menuCount": 1,
+      "menuLeft": 16,
+      "scrollWidth": 390,
+      "title": "Kategoriler",
+      "width": 390,
+      "route": "categories",
+      "expectedWidth": 390
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 194,
+      "menuCount": 1,
+      "menuLeft": 16,
+      "scrollWidth": 390,
+      "title": "Av türleri",
+      "width": 390,
+      "route": "techniques",
+      "expectedWidth": 390
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 194,
+      "menuCount": 1,
+      "menuLeft": 16,
+      "scrollWidth": 390,
+      "title": "Nereye gitmek istersin?",
+      "width": 390,
+      "route": "menu",
+      "expectedWidth": 390
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 194,
+      "menuCount": 1,
+      "menuLeft": 0,
+      "scrollWidth": 390,
+      "title": "Sepetim",
+      "width": 390,
+      "route": "checkout?step=address",
+      "expectedWidth": 390
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 154,
+      "menuCount": 1,
+      "menuLeft": 24,
+      "scrollWidth": 768,
+      "title": "Fırsat Avı",
+      "width": 768,
+      "route": "home",
+      "expectedWidth": 768
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 154,
+      "menuCount": 1,
+      "menuLeft": 24,
+      "scrollWidth": 768,
+      "title": "Kategoriler",
+      "width": 768,
+      "route": "categories",
+      "expectedWidth": 768
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 154,
+      "menuCount": 1,
+      "menuLeft": 24,
+      "scrollWidth": 768,
+      "title": "Av türleri",
+      "width": 768,
+      "route": "techniques",
+      "expectedWidth": 768
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 154,
+      "menuCount": 1,
+      "menuLeft": 24,
+      "scrollWidth": 768,
+      "title": "Nereye gitmek istersin?",
+      "width": 768,
+      "route": "menu",
+      "expectedWidth": 768
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 154,
+      "menuCount": 1,
+      "menuLeft": 24,
+      "scrollWidth": 768,
+      "title": "Sepetim",
+      "width": 768,
+      "route": "checkout?step=address",
+      "expectedWidth": 768
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 174,
+      "menuCount": 1,
+      "menuLeft": 40,
+      "scrollWidth": 1280,
+      "title": "Fırsat Avı",
+      "width": 1280,
+      "route": "home",
+      "expectedWidth": 1280
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 174,
+      "menuCount": 1,
+      "menuLeft": 40,
+      "scrollWidth": 1280,
+      "title": "Kategoriler",
+      "width": 1280,
+      "route": "categories",
+      "expectedWidth": 1280
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 174,
+      "menuCount": 1,
+      "menuLeft": 40,
+      "scrollWidth": 1280,
+      "title": "Av türleri",
+      "width": 1280,
+      "route": "techniques",
+      "expectedWidth": 1280
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 174,
+      "menuCount": 1,
+      "menuLeft": 40,
+      "scrollWidth": 1280,
+      "title": "Nereye gitmek istersin?",
+      "width": 1280,
+      "route": "menu",
+      "expectedWidth": 1280
+    },
+    {
+      "avEntry": true,
+      "logoLeft": 174,
+      "menuCount": 1,
+      "menuLeft": 40,
+      "scrollWidth": 1280,
+      "title": "Sepetim",
+      "width": 1280,
+      "route": "checkout?step=address",
+      "expectedWidth": 1280
+    }
+  ]
+}

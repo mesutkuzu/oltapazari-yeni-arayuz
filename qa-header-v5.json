@@ -1,0 +1,217 @@
+{
+  "date": "2026-11-07",
+  "checks": [
+    {
+      "menuLeft": 14,
+      "menuRight": 62,
+      "rowDifference": 1.796875,
+      "scrollWidth": 320,
+      "searchLeft": 72,
+      "title": "Fırsat Avı",
+      "width": 320,
+      "route": "home",
+      "expectedWidth": 320
+    },
+    {
+      "menuLeft": 14,
+      "menuRight": 62,
+      "rowDifference": 1.796875,
+      "scrollWidth": 320,
+      "searchLeft": 72,
+      "title": "Kategoriler",
+      "width": 320,
+      "route": "categories",
+      "expectedWidth": 320
+    },
+    {
+      "menuLeft": 14,
+      "menuRight": 62,
+      "rowDifference": 1.796875,
+      "scrollWidth": 320,
+      "searchLeft": 72,
+      "title": "Av türleri",
+      "width": 320,
+      "route": "techniques",
+      "expectedWidth": 320
+    },
+    {
+      "menuLeft": 14,
+      "menuRight": 62,
+      "rowDifference": 1.796875,
+      "scrollWidth": 320,
+      "searchLeft": 72,
+      "title": "HK Bait EXO FLY 4 cm Sedef Beyaz LRF Silikon Yem – 12 Adet",
+      "width": 320,
+      "route": "product?id=hk-bait-exo-fly-4-cm-sedef-beyaz-lrf-silikon-yem-12-adet",
+      "expectedWidth": 320
+    },
+    {
+      "drawerLeft": 0,
+      "drawerWidth": 288,
+      "open": true,
+      "route": "#product?id=hk-bait-exo-fly-4-cm-sedef-beyaz-lrf-silikon-yem-12-adet",
+      "scrollWidth": 320,
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "menuLeft": 16,
+      "menuRight": 64,
+      "rowDifference": 1.796875,
+      "scrollWidth": 390,
+      "searchLeft": 74,
+      "title": "Fırsat Avı",
+      "width": 390,
+      "route": "home",
+      "expectedWidth": 390
+    },
+    {
+      "menuLeft": 16,
+      "menuRight": 64,
+      "rowDifference": 1.796875,
+      "scrollWidth": 390,
+      "searchLeft": 74,
+      "title": "Kategoriler",
+      "width": 390,
+      "route": "categories",
+      "expectedWidth": 390
+    },
+    {
+      "menuLeft": 16,
+      "menuRight": 64,
+      "rowDifference": 1.796875,
+      "scrollWidth": 390,
+      "searchLeft": 74,
+      "title": "Av türleri",
+      "width": 390,
+      "route": "techniques",
+      "expectedWidth": 390
+    },
+    {
+      "menuLeft": 16,
+      "menuRight": 64,
+      "rowDifference": 1.796875,
+      "scrollWidth": 390,
+      "searchLeft": 74,
+      "title": "HK Bait EXO FLY 4 cm Sedef Beyaz LRF Silikon Yem – 12 Adet",
+      "width": 390,
+      "route": "product?id=hk-bait-exo-fly-4-cm-sedef-beyaz-lrf-silikon-yem-12-adet",
+      "expectedWidth": 390
+    },
+    {
+      "drawerLeft": 0,
+      "drawerWidth": 351,
+      "open": true,
+      "route": "#product?id=hk-bait-exo-fly-4-cm-sedef-beyaz-lrf-silikon-yem-12-adet",
+      "scrollWidth": 390,
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "menuLeft": 24,
+      "menuRight": 128,
+      "rowDifference": 2.796875,
+      "scrollWidth": 768,
+      "searchLeft": 140,
+      "title": "Fırsat Avı",
+      "width": 768,
+      "route": "home",
+      "expectedWidth": 768
+    },
+    {
+      "menuLeft": 24,
+      "menuRight": 128,
+      "rowDifference": 2.796875,
+      "scrollWidth": 768,
+      "searchLeft": 140,
+      "title": "Kategoriler",
+      "width": 768,
+      "route": "categories",
+      "expectedWidth": 768
+    },
+    {
+      "menuLeft": 24,
+      "menuRight": 128,
+      "rowDifference": 2.796875,
+      "scrollWidth": 768,
+      "searchLeft": 140,
+      "title": "Av türleri",
+      "width": 768,
+      "route": "techniques",
+      "expectedWidth": 768
+    },
+    {
+      "menuLeft": 24,
+      "menuRight": 128,
+      "rowDifference": 2.796875,
+      "scrollWidth": 768,
+      "searchLeft": 140,
+      "title": "HK Bait EXO FLY 4 cm Sedef Beyaz LRF Silikon Yem – 12 Adet",
+      "width": 768,
+      "route": "product?id=hk-bait-exo-fly-4-cm-sedef-beyaz-lrf-silikon-yem-12-adet",
+      "expectedWidth": 768
+    },
+    {
+      "drawerLeft": 0,
+      "drawerWidth": 400,
+      "open": true,
+      "route": "#product?id=hk-bait-exo-fly-4-cm-sedef-beyaz-lrf-silikon-yem-12-adet",
+      "scrollWidth": 768,
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "menuLeft": 269,
+      "menuRight": 373,
+      "rowDifference": 2.796875,
+      "scrollWidth": 1280,
+      "searchLeft": 385,
+      "title": "Fırsat Avı",
+      "width": 1280,
+      "route": "home",
+      "expectedWidth": 1280
+    },
+    {
+      "menuLeft": 269,
+      "menuRight": 373,
+      "rowDifference": 2.796875,
+      "scrollWidth": 1280,
+      "searchLeft": 385,
+      "title": "Kategoriler",
+      "width": 1280,
+      "route": "categories",
+      "expectedWidth": 1280
+    },
+    {
+      "menuLeft": 269,
+      "menuRight": 373,
+      "rowDifference": 2.796875,
+      "scrollWidth": 1280,
+      "searchLeft": 385,
+      "title": "Av türleri",
+      "width": 1280,
+      "route": "techniques",
+      "expectedWidth": 1280
+    },
+    {
+      "menuLeft": 269,
+      "menuRight": 373,
+      "rowDifference": 2.796875,
+      "scrollWidth": 1280,
+      "searchLeft": 385,
+      "title": "HK Bait EXO FLY 4 cm Sedef Beyaz LRF Silikon Yem – 12 Adet",
+      "width": 1280,
+      "route": "product?id=hk-bait-exo-fly-4-cm-sedef-beyaz-lrf-silikon-yem-12-adet",
+      "expectedWidth": 1280
+    },
+    {
+      "drawerLeft": 0,
+      "drawerWidth": 400,
+      "open": true,
+      "route": "#product?id=hk-bait-exo-fly-4-cm-sedef-beyaz-lrf-silikon-yem-12-adet",
+      "scrollWidth": 1280,
+      "width": 1280,
+      "expectedWidth": 1280
+    }
+  ]
+}
