@@ -1,0 +1,838 @@
+{
+  "date": "2026-11-06",
+  "checks": [
+    {
+      "dialogs": 0,
+      "route": "#home",
+      "scrollWidth": 320,
+      "title": "Fırsat Avı",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#menu",
+      "scrollWidth": 320,
+      "title": "Nereye gitmek istersin?",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#techniques",
+      "scrollWidth": 320,
+      "title": "Nasıl avlanacaksın?",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#discipline?name=Spin",
+      "scrollWidth": 320,
+      "title": "Spin için ne arıyorsun?",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?sort=bestselling",
+      "scrollWidth": 320,
+      "title": "Tüm ürünler",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?sort=most-viewed",
+      "scrollWidth": 320,
+      "title": "Tüm ürünler",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?sort=newest",
+      "scrollWidth": 320,
+      "title": "Tüm ürünler",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?kind=listing&mode=contact",
+      "scrollWidth": 320,
+      "title": "Satıcıyla görüşülen ilanlar",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#filters?brand=Shimano%2CDaiwa&max=20000&stock=1",
+      "scrollWidth": 320,
+      "title": "Filtrele",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#product?id=prox-fish-catcher-r-regular-grip-balik-tutucu",
+      "scrollWidth": 320,
+      "title": "PROX Fish Catcher R Regular Grip Balık Tutucu",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#product?id=daiwa-23-exist-sf-2000ss-h",
+      "scrollWidth": 320,
+      "title": "DAIWA 23 EXIST SF 2000SS-H",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#listings",
+      "scrollWidth": 320,
+      "title": "Bireysel ilanlar",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#cart",
+      "scrollWidth": 320,
+      "title": "Sepetim",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#checkout?step=address",
+      "scrollWidth": 320,
+      "title": "Nereye teslim edilsin?",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#checkout?step=review",
+      "scrollWidth": 320,
+      "title": "Son bir kontrol",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#account",
+      "scrollWidth": 320,
+      "title": "Hesabım",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#orders",
+      "scrollWidth": 320,
+      "title": "Siparişlerim",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#help",
+      "scrollWidth": 320,
+      "title": "Nasıl yardımcı olabiliriz?",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#directory",
+      "scrollWidth": 320,
+      "title": "Aradığın her şey burada.",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#stores",
+      "scrollWidth": 320,
+      "title": "Balıkçılığın ortak adresleri.",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#guide",
+      "scrollWidth": 320,
+      "title": "Balıkçılık rehberi",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#tools",
+      "scrollWidth": 320,
+      "title": "Avdan önce bir kontrol et.",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#sell",
+      "scrollWidth": 320,
+      "title": "Satmak mı istiyorsun? Buradan başla.",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#apps",
+      "scrollWidth": 320,
+      "title": "Olta Pazarı cebinde.",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#settings",
+      "scrollWidth": 320,
+      "title": "Dil ve para birimi",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#finder",
+      "scrollWidth": 320,
+      "title": "Birlikte bulalım.",
+      "width": 320,
+      "expectedWidth": 320
+    },
+    {
+      "dialogs": 0,
+      "route": "#home",
+      "scrollWidth": 390,
+      "title": "Fırsat Avı",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#menu",
+      "scrollWidth": 390,
+      "title": "Nereye gitmek istersin?",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#techniques",
+      "scrollWidth": 390,
+      "title": "Nasıl avlanacaksın?",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#discipline?name=Spin",
+      "scrollWidth": 390,
+      "title": "Spin için ne arıyorsun?",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?sort=bestselling",
+      "scrollWidth": 390,
+      "title": "Tüm ürünler",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?sort=most-viewed",
+      "scrollWidth": 390,
+      "title": "Tüm ürünler",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?sort=newest",
+      "scrollWidth": 390,
+      "title": "Tüm ürünler",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?kind=listing&mode=contact",
+      "scrollWidth": 390,
+      "title": "Satıcıyla görüşülen ilanlar",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#filters?brand=Shimano%2CDaiwa&max=20000&stock=1",
+      "scrollWidth": 390,
+      "title": "Filtrele",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#product?id=prox-fish-catcher-r-regular-grip-balik-tutucu",
+      "scrollWidth": 390,
+      "title": "PROX Fish Catcher R Regular Grip Balık Tutucu",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#product?id=daiwa-23-exist-sf-2000ss-h",
+      "scrollWidth": 390,
+      "title": "DAIWA 23 EXIST SF 2000SS-H",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#listings",
+      "scrollWidth": 390,
+      "title": "Bireysel ilanlar",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#cart",
+      "scrollWidth": 390,
+      "title": "Sepetim",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#checkout?step=address",
+      "scrollWidth": 390,
+      "title": "Nereye teslim edilsin?",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#checkout?step=review",
+      "scrollWidth": 390,
+      "title": "Son bir kontrol",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#account",
+      "scrollWidth": 390,
+      "title": "Hesabım",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#orders",
+      "scrollWidth": 390,
+      "title": "Siparişlerim",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#help",
+      "scrollWidth": 390,
+      "title": "Nasıl yardımcı olabiliriz?",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#directory",
+      "scrollWidth": 390,
+      "title": "Aradığın her şey burada.",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#stores",
+      "scrollWidth": 390,
+      "title": "Balıkçılığın ortak adresleri.",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#guide",
+      "scrollWidth": 390,
+      "title": "Balıkçılık rehberi",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#tools",
+      "scrollWidth": 390,
+      "title": "Avdan önce bir kontrol et.",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#sell",
+      "scrollWidth": 390,
+      "title": "Satmak mı istiyorsun? Buradan başla.",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#apps",
+      "scrollWidth": 390,
+      "title": "Olta Pazarı cebinde.",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#settings",
+      "scrollWidth": 390,
+      "title": "Dil ve para birimi",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#finder",
+      "scrollWidth": 390,
+      "title": "Birlikte bulalım.",
+      "width": 390,
+      "expectedWidth": 390
+    },
+    {
+      "dialogs": 0,
+      "route": "#home",
+      "scrollWidth": 768,
+      "title": "Fırsat Avı",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#menu",
+      "scrollWidth": 768,
+      "title": "Nereye gitmek istersin?",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#techniques",
+      "scrollWidth": 768,
+      "title": "Nasıl avlanacaksın?",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#discipline?name=Spin",
+      "scrollWidth": 768,
+      "title": "Spin için ne arıyorsun?",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?sort=bestselling",
+      "scrollWidth": 768,
+      "title": "Tüm ürünler",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?sort=most-viewed",
+      "scrollWidth": 768,
+      "title": "Tüm ürünler",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?sort=newest",
+      "scrollWidth": 768,
+      "title": "Tüm ürünler",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?kind=listing&mode=contact",
+      "scrollWidth": 768,
+      "title": "Satıcıyla görüşülen ilanlar",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#filters?brand=Shimano%2CDaiwa&max=20000&stock=1",
+      "scrollWidth": 768,
+      "title": "Filtrele",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#product?id=prox-fish-catcher-r-regular-grip-balik-tutucu",
+      "scrollWidth": 768,
+      "title": "PROX Fish Catcher R Regular Grip Balık Tutucu",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#product?id=daiwa-23-exist-sf-2000ss-h",
+      "scrollWidth": 768,
+      "title": "DAIWA 23 EXIST SF 2000SS-H",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#listings",
+      "scrollWidth": 768,
+      "title": "Bireysel ilanlar",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#cart",
+      "scrollWidth": 768,
+      "title": "Sepetim",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#checkout?step=address",
+      "scrollWidth": 768,
+      "title": "Nereye teslim edilsin?",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#checkout?step=review",
+      "scrollWidth": 768,
+      "title": "Son bir kontrol",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#account",
+      "scrollWidth": 768,
+      "title": "Hesabım",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#orders",
+      "scrollWidth": 768,
+      "title": "Siparişlerim",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#help",
+      "scrollWidth": 768,
+      "title": "Nasıl yardımcı olabiliriz?",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#directory",
+      "scrollWidth": 768,
+      "title": "Aradığın her şey burada.",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#stores",
+      "scrollWidth": 768,
+      "title": "Balıkçılığın ortak adresleri.",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#guide",
+      "scrollWidth": 768,
+      "title": "Balıkçılık rehberi",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#tools",
+      "scrollWidth": 768,
+      "title": "Avdan önce bir kontrol et.",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#sell",
+      "scrollWidth": 768,
+      "title": "Satmak mı istiyorsun? Buradan başla.",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#apps",
+      "scrollWidth": 768,
+      "title": "Olta Pazarı cebinde.",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#settings",
+      "scrollWidth": 768,
+      "title": "Dil ve para birimi",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#finder",
+      "scrollWidth": 768,
+      "title": "Birlikte bulalım.",
+      "width": 768,
+      "expectedWidth": 768
+    },
+    {
+      "dialogs": 0,
+      "route": "#home",
+      "scrollWidth": 1280,
+      "title": "Fırsat Avı",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#menu",
+      "scrollWidth": 1280,
+      "title": "Nereye gitmek istersin?",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#techniques",
+      "scrollWidth": 1280,
+      "title": "Nasıl avlanacaksın?",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#discipline?name=Spin",
+      "scrollWidth": 1280,
+      "title": "Spin için ne arıyorsun?",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?sort=bestselling",
+      "scrollWidth": 1280,
+      "title": "Tüm ürünler",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?sort=most-viewed",
+      "scrollWidth": 1280,
+      "title": "Tüm ürünler",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?sort=newest",
+      "scrollWidth": 1280,
+      "title": "Tüm ürünler",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#catalog?kind=listing&mode=contact",
+      "scrollWidth": 1280,
+      "title": "Satıcıyla görüşülen ilanlar",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#filters?brand=Shimano%2CDaiwa&max=20000&stock=1",
+      "scrollWidth": 1280,
+      "title": "Filtrele",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#product?id=prox-fish-catcher-r-regular-grip-balik-tutucu",
+      "scrollWidth": 1280,
+      "title": "PROX Fish Catcher R Regular Grip Balık Tutucu",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#product?id=daiwa-23-exist-sf-2000ss-h",
+      "scrollWidth": 1280,
+      "title": "DAIWA 23 EXIST SF 2000SS-H",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#listings",
+      "scrollWidth": 1280,
+      "title": "Bireysel ilanlar",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#cart",
+      "scrollWidth": 1280,
+      "title": "Sepetim",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#checkout?step=address",
+      "scrollWidth": 1280,
+      "title": "Nereye teslim edilsin?",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#checkout?step=review",
+      "scrollWidth": 1280,
+      "title": "Son bir kontrol",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#account",
+      "scrollWidth": 1280,
+      "title": "Hesabım",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#orders",
+      "scrollWidth": 1280,
+      "title": "Siparişlerim",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#help",
+      "scrollWidth": 1280,
+      "title": "Nasıl yardımcı olabiliriz?",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#directory",
+      "scrollWidth": 1280,
+      "title": "Aradığın her şey burada.",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#stores",
+      "scrollWidth": 1280,
+      "title": "Balıkçılığın ortak adresleri.",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#guide",
+      "scrollWidth": 1280,
+      "title": "Balıkçılık rehberi",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#tools",
+      "scrollWidth": 1280,
+      "title": "Avdan önce bir kontrol et.",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#sell",
+      "scrollWidth": 1280,
+      "title": "Satmak mı istiyorsun? Buradan başla.",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#apps",
+      "scrollWidth": 1280,
+      "title": "Olta Pazarı cebinde.",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#settings",
+      "scrollWidth": 1280,
+      "title": "Dil ve para birimi",
+      "width": 1280,
+      "expectedWidth": 1280
+    },
+    {
+      "dialogs": 0,
+      "route": "#finder",
+      "scrollWidth": 1280,
+      "title": "Birlikte bulalım.",
+      "width": 1280,
+      "expectedWidth": 1280
+    }
+  ],
+  "consoleErrors": []
+}
