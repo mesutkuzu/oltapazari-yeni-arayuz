@@ -1,0 +1,2129 @@
+{
+  "date": "2026-11-07",
+  "checks": [
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Fırsat Avı",
+      "width": 390,
+      "route": "home",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Nereye gitmek istersin?",
+      "width": 390,
+      "route": "menu",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Kategoriler",
+      "width": 390,
+      "route": "categories",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Balıkçılık",
+      "width": 390,
+      "route": "category?path=balikcilik",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Olta Makineleri",
+      "width": 390,
+      "route": "category?path=olta-makineleri",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Spin Makineleri",
+      "width": 390,
+      "route": "category?path=spin-makineleri",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Kamp & Outdoor",
+      "width": 390,
+      "route": "category?path=kamp-outdoor",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Tekli Olta İğneleri",
+      "width": 390,
+      "route": "category?path=tekli-igneler",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Nasıl avlanacaksın?",
+      "width": 390,
+      "route": "techniques",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Surf için ne arıyorsun?",
+      "width": 390,
+      "route": "discipline?name=Surf",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Bireysel ilanlar",
+      "width": 390,
+      "route": "listings",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Tüm ürünler",
+      "width": 390,
+      "route": "catalog",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Satıcıyla görüşülen ilanlar",
+      "width": 390,
+      "route": "catalog?kind=listing&mode=contact",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Tüm ürünler",
+      "width": 390,
+      "route": "catalog?brand=Shimano%2CDaiwa&max=20000&stock=1",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Mağazalar ve satıcılar",
+      "width": 390,
+      "route": "stores",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Olta Pazarı Shop",
+      "width": 390,
+      "route": "store?id=olta-pazari-shop",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Markalar",
+      "width": 390,
+      "route": "brands",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Shimano Stradic SW 8000PG Olta Makinesi",
+      "width": 390,
+      "route": "product?id=shimano-stradic-sw-8000pg-olta-makinesi",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Daiichi Seiko Pickers +EX",
+      "width": 390,
+      "route": "product?id=daiichi-seiko-pickers-ex",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "DAIWA 23 EXIST SF 2000SS-H",
+      "width": 390,
+      "route": "product?id=daiwa-23-exist-sf-2000ss-h",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Ürün fotoğrafları",
+      "width": 390,
+      "route": "gallery?id=daiichi-seiko-pickers-ex&photo=2",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Satıcıyla görüş",
+      "width": 390,
+      "route": "contact?id=daiichi-seiko-pickers-ex",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Sepetim",
+      "width": 390,
+      "route": "cart",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Nereye teslim edilsin?",
+      "width": 390,
+      "route": "checkout?step=address",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Nereye teslim edilsin?",
+      "width": 390,
+      "route": "checkout?step=review",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Siparişlerim",
+      "width": 390,
+      "route": "order",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Siparişlerim",
+      "width": 390,
+      "route": "orders",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Ürünleri karşılaştır",
+      "width": 390,
+      "route": "compare",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Birlikte bulalım.",
+      "width": 390,
+      "route": "finder",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Başlangıç noktan hazır.",
+      "width": 390,
+      "route": "finder?place=boat&level=beginner",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Nasıl yardımcı olabiliriz?",
+      "width": 390,
+      "route": "help",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Balıkçılık rehberi",
+      "width": 390,
+      "route": "guide",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Avdan önce bir kontrol et.",
+      "width": 390,
+      "route": "tools",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Aradığın her şey burada.",
+      "width": 390,
+      "route": "directory",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Gizlilik Politikamızı",
+      "width": 390,
+      "route": "info?path=gizlilik-politikasi",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "LRF Nedir? LRF Takımı, Ekipman Seçimi ve Av Teknikleri Rehberi",
+      "width": 390,
+      "route": "info?path=lrf-nedir-lrf-takimi%2C-ekipman-secimi-ve-av-teknikleri-rehberi",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Olta Pazarı cebinde.",
+      "width": 390,
+      "route": "apps",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Satmak mı istiyorsun? Buradan başla.",
+      "width": 390,
+      "route": "sell",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Hesabım",
+      "width": 390,
+      "route": "account",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Dil ve para birimi",
+      "width": 390,
+      "route": "settings",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Yurt dışından özel sipariş",
+      "width": 390,
+      "route": "request",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Hesabına hoş geldin",
+      "width": 390,
+      "route": "login",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Aramıza katıl",
+      "width": 390,
+      "route": "register",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Adreslerim",
+      "width": 390,
+      "route": "addresses",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Adreslerim",
+      "width": 390,
+      "route": "addresses?new=1",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Kuponlarım",
+      "width": 390,
+      "route": "coupons",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Hesap bilgilerim",
+      "width": 390,
+      "route": "profile",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Mesajlarım",
+      "width": 390,
+      "route": "messages",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Mesajlarım",
+      "width": 390,
+      "route": "messages?new=1",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "İade taleplerim",
+      "width": 390,
+      "route": "returns",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Satıcı alanı",
+      "width": 390,
+      "route": "seller",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Ürün / ilan ekle",
+      "width": 390,
+      "route": "sell-new",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Ürün ve ilanlarım",
+      "width": 390,
+      "route": "seller-products",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Satış siparişleri",
+      "width": 390,
+      "route": "seller-orders",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Ödemelerim",
+      "width": 390,
+      "route": "seller-finance",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Kargo ayarları",
+      "width": 390,
+      "route": "seller-shipping",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Mağaza başvurusu",
+      "width": 390,
+      "route": "store-apply",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Mağaza ayarları",
+      "width": 390,
+      "route": "seller-settings",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 390,
+      "title": "Ödeme tercihleri",
+      "width": 390,
+      "route": "seller-payment",
+      "expectedWidth": 390
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Fırsat Avı",
+      "width": 768,
+      "route": "home",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Nereye gitmek istersin?",
+      "width": 768,
+      "route": "menu",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Kategoriler",
+      "width": 768,
+      "route": "categories",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Balıkçılık",
+      "width": 768,
+      "route": "category?path=balikcilik",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Olta Makineleri",
+      "width": 768,
+      "route": "category?path=olta-makineleri",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Spin Makineleri",
+      "width": 768,
+      "route": "category?path=spin-makineleri",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Kamp & Outdoor",
+      "width": 768,
+      "route": "category?path=kamp-outdoor",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Tekli Olta İğneleri",
+      "width": 768,
+      "route": "category?path=tekli-igneler",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Nasıl avlanacaksın?",
+      "width": 768,
+      "route": "techniques",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Surf için ne arıyorsun?",
+      "width": 768,
+      "route": "discipline?name=Surf",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Bireysel ilanlar",
+      "width": 768,
+      "route": "listings",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Tüm ürünler",
+      "width": 768,
+      "route": "catalog",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Satıcıyla görüşülen ilanlar",
+      "width": 768,
+      "route": "catalog?kind=listing&mode=contact",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Tüm ürünler",
+      "width": 768,
+      "route": "catalog?brand=Shimano%2CDaiwa&max=20000&stock=1",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Mağazalar ve satıcılar",
+      "width": 768,
+      "route": "stores",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Olta Pazarı Shop",
+      "width": 768,
+      "route": "store?id=olta-pazari-shop",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Markalar",
+      "width": 768,
+      "route": "brands",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Shimano Stradic SW 8000PG Olta Makinesi",
+      "width": 768,
+      "route": "product?id=shimano-stradic-sw-8000pg-olta-makinesi",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Daiichi Seiko Pickers +EX",
+      "width": 768,
+      "route": "product?id=daiichi-seiko-pickers-ex",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "DAIWA 23 EXIST SF 2000SS-H",
+      "width": 768,
+      "route": "product?id=daiwa-23-exist-sf-2000ss-h",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Ürün fotoğrafları",
+      "width": 768,
+      "route": "gallery?id=daiichi-seiko-pickers-ex&photo=2",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Satıcıyla görüş",
+      "width": 768,
+      "route": "contact?id=daiichi-seiko-pickers-ex",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Sepetim",
+      "width": 768,
+      "route": "cart",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Nereye teslim edilsin?",
+      "width": 768,
+      "route": "checkout?step=address",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Nereye teslim edilsin?",
+      "width": 768,
+      "route": "checkout?step=review",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Siparişlerim",
+      "width": 768,
+      "route": "order",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Siparişlerim",
+      "width": 768,
+      "route": "orders",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Ürünleri karşılaştır",
+      "width": 768,
+      "route": "compare",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Birlikte bulalım.",
+      "width": 768,
+      "route": "finder",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Başlangıç noktan hazır.",
+      "width": 768,
+      "route": "finder?place=boat&level=beginner",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Nasıl yardımcı olabiliriz?",
+      "width": 768,
+      "route": "help",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Balıkçılık rehberi",
+      "width": 768,
+      "route": "guide",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Avdan önce bir kontrol et.",
+      "width": 768,
+      "route": "tools",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Aradığın her şey burada.",
+      "width": 768,
+      "route": "directory",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Gizlilik Politikamızı",
+      "width": 768,
+      "route": "info?path=gizlilik-politikasi",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "LRF Nedir? LRF Takımı, Ekipman Seçimi ve Av Teknikleri Rehberi",
+      "width": 768,
+      "route": "info?path=lrf-nedir-lrf-takimi%2C-ekipman-secimi-ve-av-teknikleri-rehberi",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Olta Pazarı cebinde.",
+      "width": 768,
+      "route": "apps",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Satmak mı istiyorsun? Buradan başla.",
+      "width": 768,
+      "route": "sell",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Hesabım",
+      "width": 768,
+      "route": "account",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Dil ve para birimi",
+      "width": 768,
+      "route": "settings",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Yurt dışından özel sipariş",
+      "width": 768,
+      "route": "request",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Hesabına hoş geldin",
+      "width": 768,
+      "route": "login",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Aramıza katıl",
+      "width": 768,
+      "route": "register",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Adreslerim",
+      "width": 768,
+      "route": "addresses",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Adreslerim",
+      "width": 768,
+      "route": "addresses?new=1",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Kuponlarım",
+      "width": 768,
+      "route": "coupons",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Hesap bilgilerim",
+      "width": 768,
+      "route": "profile",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Mesajlarım",
+      "width": 768,
+      "route": "messages",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Mesajlarım",
+      "width": 768,
+      "route": "messages?new=1",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "İade taleplerim",
+      "width": 768,
+      "route": "returns",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Satıcı alanı",
+      "width": 768,
+      "route": "seller",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Ürün / ilan ekle",
+      "width": 768,
+      "route": "sell-new",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Ürün ve ilanlarım",
+      "width": 768,
+      "route": "seller-products",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Satış siparişleri",
+      "width": 768,
+      "route": "seller-orders",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Ödemelerim",
+      "width": 768,
+      "route": "seller-finance",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Kargo ayarları",
+      "width": 768,
+      "route": "seller-shipping",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Mağaza başvurusu",
+      "width": 768,
+      "route": "store-apply",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Mağaza ayarları",
+      "width": 768,
+      "route": "seller-settings",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 768,
+      "title": "Ödeme tercihleri",
+      "width": 768,
+      "route": "seller-payment",
+      "expectedWidth": 768
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Fırsat Avı",
+      "width": 1280,
+      "route": "home",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Nereye gitmek istersin?",
+      "width": 1280,
+      "route": "menu",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Kategoriler",
+      "width": 1280,
+      "route": "categories",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Balıkçılık",
+      "width": 1280,
+      "route": "category?path=balikcilik",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Olta Makineleri",
+      "width": 1280,
+      "route": "category?path=olta-makineleri",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Spin Makineleri",
+      "width": 1280,
+      "route": "category?path=spin-makineleri",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Kamp & Outdoor",
+      "width": 1280,
+      "route": "category?path=kamp-outdoor",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Tekli Olta İğneleri",
+      "width": 1280,
+      "route": "category?path=tekli-igneler",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Nasıl avlanacaksın?",
+      "width": 1280,
+      "route": "techniques",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Surf için ne arıyorsun?",
+      "width": 1280,
+      "route": "discipline?name=Surf",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Bireysel ilanlar",
+      "width": 1280,
+      "route": "listings",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Tüm ürünler",
+      "width": 1280,
+      "route": "catalog",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Satıcıyla görüşülen ilanlar",
+      "width": 1280,
+      "route": "catalog?kind=listing&mode=contact",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Tüm ürünler",
+      "width": 1280,
+      "route": "catalog?brand=Shimano%2CDaiwa&max=20000&stock=1",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Mağazalar ve satıcılar",
+      "width": 1280,
+      "route": "stores",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Olta Pazarı Shop",
+      "width": 1280,
+      "route": "store?id=olta-pazari-shop",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Markalar",
+      "width": 1280,
+      "route": "brands",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Shimano Stradic SW 8000PG Olta Makinesi",
+      "width": 1280,
+      "route": "product?id=shimano-stradic-sw-8000pg-olta-makinesi",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Daiichi Seiko Pickers +EX",
+      "width": 1280,
+      "route": "product?id=daiichi-seiko-pickers-ex",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "DAIWA 23 EXIST SF 2000SS-H",
+      "width": 1280,
+      "route": "product?id=daiwa-23-exist-sf-2000ss-h",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Ürün fotoğrafları",
+      "width": 1280,
+      "route": "gallery?id=daiichi-seiko-pickers-ex&photo=2",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Satıcıyla görüş",
+      "width": 1280,
+      "route": "contact?id=daiichi-seiko-pickers-ex",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Sepetim",
+      "width": 1280,
+      "route": "cart",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Nereye teslim edilsin?",
+      "width": 1280,
+      "route": "checkout?step=address",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Nereye teslim edilsin?",
+      "width": 1280,
+      "route": "checkout?step=review",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Siparişlerim",
+      "width": 1280,
+      "route": "order",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Siparişlerim",
+      "width": 1280,
+      "route": "orders",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Ürünleri karşılaştır",
+      "width": 1280,
+      "route": "compare",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Birlikte bulalım.",
+      "width": 1280,
+      "route": "finder",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Başlangıç noktan hazır.",
+      "width": 1280,
+      "route": "finder?place=boat&level=beginner",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Nasıl yardımcı olabiliriz?",
+      "width": 1280,
+      "route": "help",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Balıkçılık rehberi",
+      "width": 1280,
+      "route": "guide",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Avdan önce bir kontrol et.",
+      "width": 1280,
+      "route": "tools",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Aradığın her şey burada.",
+      "width": 1280,
+      "route": "directory",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Gizlilik Politikamızı",
+      "width": 1280,
+      "route": "info?path=gizlilik-politikasi",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "LRF Nedir? LRF Takımı, Ekipman Seçimi ve Av Teknikleri Rehberi",
+      "width": 1280,
+      "route": "info?path=lrf-nedir-lrf-takimi%2C-ekipman-secimi-ve-av-teknikleri-rehberi",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Olta Pazarı cebinde.",
+      "width": 1280,
+      "route": "apps",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Satmak mı istiyorsun? Buradan başla.",
+      "width": 1280,
+      "route": "sell",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Hesabım",
+      "width": 1280,
+      "route": "account",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Dil ve para birimi",
+      "width": 1280,
+      "route": "settings",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Yurt dışından özel sipariş",
+      "width": 1280,
+      "route": "request",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Hesabına hoş geldin",
+      "width": 1280,
+      "route": "login",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Aramıza katıl",
+      "width": 1280,
+      "route": "register",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Adreslerim",
+      "width": 1280,
+      "route": "addresses",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Adreslerim",
+      "width": 1280,
+      "route": "addresses?new=1",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Kuponlarım",
+      "width": 1280,
+      "route": "coupons",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Hesap bilgilerim",
+      "width": 1280,
+      "route": "profile",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Mesajlarım",
+      "width": 1280,
+      "route": "messages",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Mesajlarım",
+      "width": 1280,
+      "route": "messages?new=1",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "İade taleplerim",
+      "width": 1280,
+      "route": "returns",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Satıcı alanı",
+      "width": 1280,
+      "route": "seller",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Ürün / ilan ekle",
+      "width": 1280,
+      "route": "sell-new",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Ürün ve ilanlarım",
+      "width": 1280,
+      "route": "seller-products",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Satış siparişleri",
+      "width": 1280,
+      "route": "seller-orders",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Ödemelerim",
+      "width": 1280,
+      "route": "seller-finance",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Kargo ayarları",
+      "width": 1280,
+      "route": "seller-shipping",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Mağaza başvurusu",
+      "width": 1280,
+      "route": "store-apply",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Mağaza ayarları",
+      "width": 1280,
+      "route": "seller-settings",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 1280,
+      "title": "Ödeme tercihleri",
+      "width": 1280,
+      "route": "seller-payment",
+      "expectedWidth": 1280
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Fırsat Avı",
+      "width": 320,
+      "route": "home",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Nereye gitmek istersin?",
+      "width": 320,
+      "route": "menu",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Kategoriler",
+      "width": 320,
+      "route": "categories",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Balıkçılık",
+      "width": 320,
+      "route": "category?path=balikcilik",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Olta Makineleri",
+      "width": 320,
+      "route": "category?path=olta-makineleri",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Spin Makineleri",
+      "width": 320,
+      "route": "category?path=spin-makineleri",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Kamp & Outdoor",
+      "width": 320,
+      "route": "category?path=kamp-outdoor",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Tekli Olta İğneleri",
+      "width": 320,
+      "route": "category?path=tekli-igneler",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Nasıl avlanacaksın?",
+      "width": 320,
+      "route": "techniques",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Surf için ne arıyorsun?",
+      "width": 320,
+      "route": "discipline?name=Surf",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Bireysel ilanlar",
+      "width": 320,
+      "route": "listings",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Tüm ürünler",
+      "width": 320,
+      "route": "catalog",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Satıcıyla görüşülen ilanlar",
+      "width": 320,
+      "route": "catalog?kind=listing&mode=contact",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Tüm ürünler",
+      "width": 320,
+      "route": "catalog?brand=Shimano%2CDaiwa&max=20000&stock=1",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Mağazalar ve satıcılar",
+      "width": 320,
+      "route": "stores",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Olta Pazarı Shop",
+      "width": 320,
+      "route": "store?id=olta-pazari-shop",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Markalar",
+      "width": 320,
+      "route": "brands",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Shimano Stradic SW 8000PG Olta Makinesi",
+      "width": 320,
+      "route": "product?id=shimano-stradic-sw-8000pg-olta-makinesi",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Daiichi Seiko Pickers +EX",
+      "width": 320,
+      "route": "product?id=daiichi-seiko-pickers-ex",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "DAIWA 23 EXIST SF 2000SS-H",
+      "width": 320,
+      "route": "product?id=daiwa-23-exist-sf-2000ss-h",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Ürün fotoğrafları",
+      "width": 320,
+      "route": "gallery?id=daiichi-seiko-pickers-ex&photo=2",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Satıcıyla görüş",
+      "width": 320,
+      "route": "contact?id=daiichi-seiko-pickers-ex",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Sepetim",
+      "width": 320,
+      "route": "cart",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Nereye teslim edilsin?",
+      "width": 320,
+      "route": "checkout?step=address",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Nereye teslim edilsin?",
+      "width": 320,
+      "route": "checkout?step=review",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Siparişlerim",
+      "width": 320,
+      "route": "order",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Siparişlerim",
+      "width": 320,
+      "route": "orders",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Ürünleri karşılaştır",
+      "width": 320,
+      "route": "compare",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Birlikte bulalım.",
+      "width": 320,
+      "route": "finder",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Başlangıç noktan hazır.",
+      "width": 320,
+      "route": "finder?place=boat&level=beginner",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Nasıl yardımcı olabiliriz?",
+      "width": 320,
+      "route": "help",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Balıkçılık rehberi",
+      "width": 320,
+      "route": "guide",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Avdan önce bir kontrol et.",
+      "width": 320,
+      "route": "tools",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Aradığın her şey burada.",
+      "width": 320,
+      "route": "directory",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Gizlilik Politikamızı",
+      "width": 320,
+      "route": "info?path=gizlilik-politikasi",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "LRF Nedir? LRF Takımı, Ekipman Seçimi ve Av Teknikleri Rehberi",
+      "width": 320,
+      "route": "info?path=lrf-nedir-lrf-takimi%2C-ekipman-secimi-ve-av-teknikleri-rehberi",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Olta Pazarı cebinde.",
+      "width": 320,
+      "route": "apps",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Satmak mı istiyorsun? Buradan başla.",
+      "width": 320,
+      "route": "sell",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Hesabım",
+      "width": 320,
+      "route": "account",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Dil ve para birimi",
+      "width": 320,
+      "route": "settings",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Yurt dışından özel sipariş",
+      "width": 320,
+      "route": "request",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Hesabına hoş geldin",
+      "width": 320,
+      "route": "login",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Aramıza katıl",
+      "width": 320,
+      "route": "register",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Adreslerim",
+      "width": 320,
+      "route": "addresses",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Adreslerim",
+      "width": 320,
+      "route": "addresses?new=1",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Kuponlarım",
+      "width": 320,
+      "route": "coupons",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Hesap bilgilerim",
+      "width": 320,
+      "route": "profile",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Mesajlarım",
+      "width": 320,
+      "route": "messages",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Mesajlarım",
+      "width": 320,
+      "route": "messages?new=1",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "İade taleplerim",
+      "width": 320,
+      "route": "returns",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Satıcı alanı",
+      "width": 320,
+      "route": "seller",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Ürün / ilan ekle",
+      "width": 320,
+      "route": "sell-new",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Ürün ve ilanlarım",
+      "width": 320,
+      "route": "seller-products",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Satış siparişleri",
+      "width": 320,
+      "route": "seller-orders",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Ödemelerim",
+      "width": 320,
+      "route": "seller-finance",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Kargo ayarları",
+      "width": 320,
+      "route": "seller-shipping",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Mağaza başvurusu",
+      "width": 320,
+      "route": "store-apply",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Mağaza ayarları",
+      "width": 320,
+      "route": "seller-settings",
+      "expectedWidth": 320
+    },
+    {
+      "narrowCart": 0,
+      "oldLinks": 0,
+      "scrollWidth": 320,
+      "title": "Ödeme tercihleri",
+      "width": 320,
+      "route": "seller-payment",
+      "expectedWidth": 320
+    }
+  ]
+}

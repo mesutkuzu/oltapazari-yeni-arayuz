@@ -1,91 +1,93 @@
 # Olta Pazarı: tasarım ve kullanılabilirlik incelemesi
 
-Tarih: 6 Kasım 2026. Kapsam: herkese açık site, mobil/masaüstü arayüz ve bağımsız çalışan önizleme. Kapalı müşteri ve satıcı hesaplarına giriş yapılmadı; gerçek işlem yapılmadı.
+Revizyon: 7 Kasım 2026. Kaynak veriler: 6 Kasım 2026. Kapsam, herkese açık orijinal site ve bağımsız arayüz önizlemesidir. Kapalı hesaplara girilmedi; gerçek ödeme, sipariş veya mesaj gönderilmedi.
 
-## Tasarım dili
+## Tasarım dili ve bilgi sırası
 
-Orijinal logo ve favicon korunur. Ana mavi `#2b6384`, koyu metin `#193448`, ikincil metin `#596d7b`, açık zemin `#f8fafc` ve beyaz kartlar kullanılır. Gövde metni 16 px’dir. Başlıklar güçlü ağırlıkta, temel düğmeler çoğunlukla 48–56 px yüksekliğindedir. Ürün fotoğrafları beyaz zeminde ve aynı kart çerçevesindedir.
+Orijinal logo, favicon ve mavi renkler korunur. Ana mavi `#2b6384`, koyu metin `#193448`, ikincil metin `#596d7b`, açık zemin `#f8fafc` ve beyaz kartlar temel alınır. Gövde metni 16 px, temel düğmeler çoğunlukla 48–56 px yüksekliğindedir. Hesap tercihlerinde daha büyük yazı seçeneği bulunur.
 
-Av türü görselleri tek görsel sistem olarak hazırlanır: beyaz stüdyo zemini, aynı kamera açısı ve ölçek, aynı ışık, grafit/silver/lacivert ekipman. Büyük yaşam tarzı fotoğraf galerisi ana sayfada kullanılmaz. Görseller av türleri sayfasındadır.
+Arama ve sepet kolay erişilir konumdadır. Ana sayfada önce indirimli ürünler, ardından mağazalardan seçilen ürünler gösterilir. Kategoriler doğrudan ana gezinmededir. Av türleri ayrı bir keşif sayfasıdır; ana sayfada yinelenen bir galeri oluşturmaz. Satış işlemleri hesap ve menü içindedir; alıcının temel alışveriş alanını kaplamaz. Özel ürün talebi ve seçim yardımcısı gerektiğinde başvurulabilecek ayrı girişlerdir.
 
-## Son bilgi sırası
+Av türleri için beyaz stüdyo zemini, sabit açı, benzer ölçek ve ışık kullanan ortak ekipman görsel sistemi hazırlandı. Ürün fotoğrafları gerçek kaynak sayfalardan alındı; kartlarda tutarlı çerçeve ve ölçü kullanılır.
 
-1. Üstte arama, hesap ve sepet.
-2. Ana sayfada Fırsat Avı; eski fiyat, yeni fiyat ve indirim oranı.
-3. Mağazalardan Seçili Ürünler.
-4. Gerektiğinde tüm ürünlere veya seçim yardımcısına erişim.
-5. Av türleri ayrı menü alanı; ana sayfada tekrar edilmez.
-6. Satıcı işlemleri alıcıya yönelik ana alanı kaplamaz.
+## İnceleme sonucunda değişen davranışlar
 
-## Akışların değerlendirmesi
-
-| Alan | Uygulanan davranış | Neden |
+| Alan | Son davranış | Kullanıcıya etkisi |
 |---|---|---|
-| Menü | Tam sayfa, başlıklarla gruplanmış bağlantılar | Beklenmedik pencere açılmaz; geri tuşu çalışır. |
-| Ürün kartı | Görsel, ad, fiyat, İncele | Karşılaştırma/favori/sepet düğmelerinin aynı kartta yarışması önlenir. |
-| İndirim | Eski ve yeni fiyat birlikte; yüzde gerçek veriden hesaplanır | Kullanıcı indirimin ne olduğunu görebilir. |
-| Ürün detayı | Tek ana düğme: Sepete ekle | Sonraki adım açık olur. |
-| Sepete ekleme | Sepet sayfasına geçiş | Ürünün nereye gittiği görünür. |
-| Ek ürün işlemleri | Kaydet ve karşılaştır bölümü içinde | İşlevler korunur, temel satın alma işi sade kalır. |
-| Filtreler | Ayrı sayfa, açık alan adları, Ürünleri göster düğmesi | Küçük ekranda seçim sırasında ürün listesi sürekli değişmez. |
-| Ürün listesi | 12 ürünlük sayfalar; sonuç sayısı ve sıralama | Uzun katalog kaydırması sınırlanır. |
-| Bireysel satıcı | İki alışveriş biçimi ayrı giriş | İlan ile online satış birbirine karışmaz. |
-| Online olmayan ilan | Sepet/satın alma yerine iletişim | Kullanıcı yapılamayan bir ödeme işlemine yönlendirilmez. |
-| Satış biçimi bilinmeyen ürün | Satıcıya sorma yolu; sepete ekleme yok | Online satış olduğu varsayılmaz. |
-| Teslimat | Açık etiketler, aynı fatura adresi seçimi, alan yanında hata | Hata nerede ve nasıl düzeltileceği görünür. |
-| Sipariş | Sepet → Teslimat → Kontrol | Kullanıcı bulunduğu ve sonraki adımı görür. |
-| İşlem sonucu | Deneme olduğu, ödeme alınmadığı açıkça yazılır | Önizleme, gerçek işlem onayı gibi sunulmaz. |
-| Veri yükleme hatası | Yeniden deneme seçeneği | Boş sayfa bırakılmaz. |
-| Dil | Günlük Türkçe; teknik terime kısa açıklama | Kullanıcının terimleri ezberlemesi gerekmez. |
+| Menü ve hesap | Tam sayfa yolları, gruplanmış başlıklar ve açıklayıcı etiketler | Gezinme beklenmedik pencerelere dönüşmez. |
+| Kategoriler | 116 kategori düğümü; üst/alt kategori yolları yereldir | Kullanıcı kategoriye tıklayınca eski siteye gönderilmez. |
+| Markalar ve mağazalar | Aranabilir dizinler, yerel satıcı kataloğu | Ürün keşfi aynı arayüz içinde sürer. |
+| Ürün kartı | Satışa uygun, seçeneksiz üründe doğrudan Sepete ekle | Listeyi kaybetmeden alışverişe devam edilebilir. |
+| Ekleme sonucu | Kartta kısa geri bildirim, sepet sayacı ve sepet bağlantılı bildirim | İşlemin gerçekleştiği görülür. |
+| Seçenekli ürün | Önce detayda renk, ölçü veya model seçimi | Yanlış veya eksik seçenek sepete alınmaz. |
+| Filtreler | Mobil ve masaüstünde kapatılabilen çekmece | Liste ve kaydırma konumu korunur; seçimler topluca uygulanır. |
+| Ürün fotoğrafları | Küçük fotoğraf seçimleri ve ayrı büyütme sayfası | Kullanıcı farklı açılara bakabilir, ürüne geri dönebilir. |
+| Uzun açıklama | Genişletme/kısaltma düğmesi | Temel ürün bilgisine ulaşmak uzun metinle zorlaşmaz. |
+| Bireysel ilanlar | Online satın alma ve satıcıyla görüşme ayrımı | İletişim ilanları ödeme akışına karışmaz. |
+| Satıcıya soru | Gönderilmediği açıkça belirtilen mesaj taslağı | Çalışmayan bir gönderim yapılmış gibi sunulmaz. |
+| Sepet | Seçenekler, adet ve ayrı Çıkar işlemi | Alınacak ürün ve seçimi açıkça görünür. |
+| Teslimat | Alan yanında doğrulama; gerektiğinde farklı fatura adresi | Hatanın yeri ve düzeltme yolu anlaşılır. |
+| Hesap ve satıcı | 19 yerel görünüm ve işlevsel oturum taslakları | Menü öğeleri boş bağlantılardan ibaret kalmaz. |
+| Bilgi sayfaları | 19 yerel içerik; uzun metinler özet olarak etiketli | Destek ve rehber okunabilir; tam sözleşme iddiası yapılmaz. |
+| Yükleme sorunu | Yeniden deneme eylemi | Kullanıcı boş ekranda kalmaz. |
 
-## Gelişmiş filtre ve sıralama incelemesi
+Filtre çekmecesi yalnızca listeyi daraltma işi içindir. Açılış/kapanışta odak yönetilir; kapatma ve Escape davranışı kullanılır. Menü, hesap ve diğer sayfa geçişleri normal gezinme olarak kalır. Buton ve simge etiketleri yapılan işlemi adlandırır. Fotoğraf, açıklama, karşılaştırma ve boş durumlarda geri dönüş veya sonraki adım bulunur.
 
-Marka grubu kendi içinde VEYA, farklı filtre grupları arasında VE mantığıyla çalışır. Örneğin Shimano veya Daiwa seçimi, stok ve fiyat sınırıyla birlikte daraltılabilir. Marka araması yalnızca seçenek listesini daraltır; önceden seçilmiş başka markayı sessizce kaldırmaz. Seçenek sayıları diğer etkin filtrelere göre hesaplanır. Sıfır seçenekli marka, seçili değilse devre dışıdır; seçili markayı kullanıcı kaldırabilir.
+## Filtre ve sıralama ayrıntıları
 
-Mobilde filtre seçimi sırasında ürün listesine otomatik dönülmez. Sonuç sayısı uygulamadan önce görünür; tek belirgin düğme seçimleri uygular. Ters fiyat/tarih aralığı açık hata verir. Marka filtreleri ayrı etiketlerdir ve tek tek kaldırılır. Sıralama değişince sayfa 1’e döner, diğer filtreler korunur. Geçersiz/eski sıralama değeri güvenle önerilene döner. Çok kelimeli aramada kelimelerin ürün adında yan yana olması gerekmez.
+Marka seçimleri kendi grubunda VEYA, ayrı filtre grupları arasında VE mantığıyla birleşir. Marka araması seçenek listesini daraltır; görünmeyen önceki seçimi silmez. Sayımlar diğer etkin filtrelere göre hesaplanır. Sonuç vermeyen seçilmemiş markalar devre dışı kalabilir; seçili bir marka her zaman kaldırılabilir. Kaynaktan doğrulanan 43 marka, ürün verisindeki ek adlarla birlikte korunur; marka adlarının farklı yazımları eşleştirilir.
 
-Sıralamalar: Önerilen, En çok satanlar, En çok görüntülenenler, Yeni gelenler, En düşük fiyat, En yüksek fiyat, En yüksek indirim, A–Z. Önerilen sıralama satın alınabilir ürünleri ve bilinen çok satanları öne alır. Diğer sıralamalar kullanıcı seçimini uygular. İndirim sırası tutara değil yüzdeye göre hesaplanır. Popülerlik sıralarının kaynağı ilgili kamusal listelerin ilk 24 konumudur; gerçek satış adetleri çıkarılmaz.
+Ürün sayısı uygulamadan önce görünür. Negatif veya ters fiyat aralığı ve ters tarih sırası açık hata üretir. Etkin kategori, satıcı, marka ve diğer koşullar ayrı etiketlerle kaldırılabilir. Sıralama değişimi diğer filtreleri koruyarak ilk sayfaya döner. Çok kelimeli arama, sözcüklerin yan yana olmasını gerektirmez.
 
-Stok dışı ürün sepete eklenemez. Satış biçimi belirsiz veya yalnızca iletişim olan ürün online sepete girmez. Kaynaktaki adet üst sınırı tekrar eklemede de korunur. Sepette adet 1 iken azaltma kapalıdır; çıkarmak için ayrı Çıkar işlemi kullanılır. Ürün zaten adet sınırında sepetteyse ana düğme kullanıcıyı mevcut sepetine götürür. Farklı fatura adresi alanları yalnızca ihtiyaç halinde açılır ve kontrol ekranına taşınır.
+Sekiz sıralama vardır: önerilen, çok satan, çok görüntülenen, yeni gelen, düşük fiyat, yüksek fiyat, yüksek indirim yüzdesi ve A–Z. Önerilen sıralama satın alınabilir ürünleri ve bilinen çok satanları öne alır. Popülerlik verisi kamusal kaynak listelerin ilk 24 konumuyla sınırlıdır; satış adedi veya müşteri puanı değildir. Diğer ürünler için popülerlik değeri uydurulmaz.
 
-Önizlemede ücretsiz kargo, hızlı teslimat veya müşteri puanı verisi uydurulmadı. Kaynakta bulunmayan teknik özellik, ürün durumu ve stok bilgisi biliniyor gibi sunulmaz.
+## Kaynak kapsamı ve özellik eşlemesi
 
-## Korunan alanların envanteri
+298 ürünlük katalog tam envanter değildir. Kaynakta ürün bulunmayan veya önizlemeye alınmamış kategori/marka yerel olarak açılır ve uygun boş durum gösterir. 405 bağlantılık envanterde kaynak siteye ait bağlantılar kategori, ürün, satıcı, hesap veya bilgi sayfalarına eşlenir. Deniz tahmini, NAVTEX, harita ve uygulama mağazası gibi üçüncü taraflar kendi kaynaklarına bağlanır.
 
-| Alan | Bu sürümdeki karşılığı |
+200 üründe çoklu galeri, toplam 1.079 yerel fotoğraf referansı vardır. Kaynaktaki tüm gözlenen galeri fotoğrafları aktarılmıştır; en büyük galeri 11 fotoğraftır. 128 üründe açıklama, 283 üründe kaynak kod/GTIN ve kargo metni, 10 üründe seçenek verisi bulunur. Kategori yolları kullanılarak belirgin ürün sınıflandırma hataları düzeltilmiştir. Kargo metnindeki eski gönderim tarihi canlı teslimat sözü olarak gösterilmez; kaynak bedeli nihai hesaplanan ücret gibi kabul edilmez.
+
+| Kaynak alanı | Bu sürümdeki karşılık ve sınır |
 |---|---|
-| Kategoriler ve alt kategoriler | Av türleri, ekipman seçimi ve tüm hizmetler dizini |
-| Mağaza ürünleri | Katalog ve mağazalardan seçili ürünler |
-| Bireysel ilanlar / bireysel ürünler | Bireysel alan; online ve iletişim ayrımı |
-| Ürün seçenekleri, teknik bilgiler ve açıklama | Ürün detayı; üretimde canlı varyant/stok bağlantısı gerekir |
-| Favori ve karşılaştırma | Tarayıcıda çalışan seçimler |
-| Sepet ve sipariş | Tarayıcıda çalışan demo akışı |
-| Siparişler / iadeler / adresler / kuponlar / hesap | Hesap ve hizmet bağlantı envanteri; canlı hesap entegrasyonu gerekir |
-| Ürün ve ilan ekleme / mağaza / satıcı paneli | Satıcı alanı ve mevcut servis bağlantıları; canlı işlem entegrasyonu gerekir |
-| Hakediş / ödeme / kargo ayarları | Hizmet envanterinde korunur; yönetim erişimi olmadan taşınmaz |
-| Markalar ve mağazalar | Ayrı keşif sayfası |
-| Rehber/blog | Rehber sayfası ve yazı bağlantıları |
-| Topluluk, mobil uygulamalar ve iletişim | Menü/hizmet dizini |
-| Deniz-hava araçları / NAVTEX / yasaklar | Balıkçı araçları sayfası ve asıl kurum bağlantıları |
-| Desi | Yerel hesaplayıcı: en × boy × yükseklik ÷ 3000 |
-| Politikalar / sözleşmeler / kurumsal | Hizmet envanteri ve kaynak bağlantıları |
-| Dil ve para birimleri | Tercih alanı ve mevcut sistem seçenekleri; bu UI Türkçe/TL |
+| Kategori, alt kategori, marka, mağaza | Yerel dizinler ve katalog filtreleri |
+| Ürün, seçenek, fotoğraf, açıklama | Detay, galeri ve seçenek seçimi; bağımlı seçeneği bilinmeyen ürün satın alınamaz |
+| Favori, karşılaştırma, sepet | Tarayıcıda çalışan seçimler; stok ve toplam adet kontrolleri |
+| Sipariş ve iade | Deneme sipariş akışı ve yerel iade taslağı; gerçek işlem yok |
+| Üyelik, profil, adres, mesaj | Yerel hesap görünümleri ve oturum taslakları; kimlik doğrulama ve mesaj iletimi yok |
+| Kupon | Kod girişi ve durum açıklaması; doğrulanmayan indirim uygulanmaz |
+| Ürün/ilan ekleme ve mağaza başvurusu | Form doğrulama ve taslak; ilan yayını ya da başvuru iletimi yok |
+| Satış siparişleri, hakediş, kargo ve ödeme ayarları | Yerel ekran ve tercih örnekleri; gerçek satış, banka kaydı veya gönderi yok |
+| Özel ürün talebi | Menü ve ana sayfadan yerel talep taslağı; teklif ya da ücret oluşturmaz |
+| Blog, yardım ve kurumsal | Yerel sayfalar; uzun makale/politika/sözleşmeler açıkça kısa özet |
+| Balıkçı araçları ve desi | İlgili kuruma yönlendirme; yerel desi hesaplama |
+| Dil, kur ve yazı boyutu | Tercihler; büyük yazı uygulanabilir, çeviri ve canlı kur servisi bağlı değildir |
 
-Bağlantıların korunması, arka uç işlevlerinin yeni arayüze entegre edildiği anlamına gelmez. Kullanıcı KMK erişimi bulunmadığını belirterek çalışan önizleme yayınını seçti.
+## Gerçek işlem sınırı
+
+KMK yönetim/tema veya API erişimi verilmedi. Bu nedenle gerçek oturum, üyelik, canlı stok/fiyat, sipariş, ödeme, mesaj iletimi veya ilan yayını yapılmaz. Şifre ve ödeme bilgisi istenmez. Hesap, teslimat, adres ve taslaklar açık oturum belleğinde; sepet, favori ve karşılaştırma tarayıcıda tutulur. Deneme siparişi gerçek işlem olarak onaylanmaz.
+
+Doğrulanmayan stok, ürün durumu, ücretsiz kargo, teslimat sözü, müşteri puanı ve satış sayısı varsayılmaz. Sadece iletişimle satılan veya satış biçimi belirsiz ürün online sepete alınmaz. Stok dışı ürün ve kaynak adet sınırı kontrol edilir. Varyantların farklı sepet satırları, aynı ürünün toplam adet sınırını aşamaz. Kaynakta boş/bağımlı seçenek bulunduğunda kombinasyon uydurulmaz.
+
+Politika ve sözleşme özetleri tam hukuki metin değildir; görüntüleme veya taslak kaydetme bir sözleşme kabulü oluşturmaz. Gerçek üretim sürümünde yetkili tam metinler, sürüm bilgisi ve gerekli onay süreçleri ayrıca bağlanmalıdır.
 
 ## Araştırma temeli
 
-- [Baymard: mobil alışverişte genel sorunlar](https://baymard.com/research-articles/mobile-commerce-design): küçük ekranda bağlamı kaybetme ve gereksiz karmaşıklık riski. Bu projede ana seçimleri azaltma, normal sayfa geçişleri ve açık sonraki adım kullanıldı.
-- [Baymard: mobil e-ticaret araştırması](https://baymard.com/research/mcommerce-usability): kategori, arama, ürün listesi, filtre ve satın alma adımlarının birlikte değerlendirilmesi. İnceleme tek ana sayfayla sınırlandırılmadı.
-- [Baymard: checkout akışı](https://baymard.com/blog/checkout-flow-ux-optimization): ilerleme, açıklayıcı düğme ve gereksiz kesintileri azaltma. Sipariş adımları görünür tutuldu; ödeme sırasında tanıtım/pencere kullanılmadı.
-- [NN/g: tanıma ve hatırlama](https://www.nngroup.com/articles/recognition-and-recall/): simgeler tek başına bırakılmadı; etiket ve kısa açıklama eklendi. Seçilen ürünler kontrol ekranında tekrar gösterildi.
-- [W3C: kontrast](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum): normal metinde 4.5:1 hedefi temel alındı; soluk yardımcı renkler koyulaştırıldı.
-- [W3C: hedef boyutu](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html): temel dokunma alanları yaklaşık 44 px veya üstünde tasarlandı. Bu, bütün sayfanın bağımsız WCAG uygunluk sertifikası değildir.
-- [GitHub: Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages): statik yayın; sunucu oturumu/ödeme uygulaması barındırmaz.
-- [KMK: pazaryeri altyapısı](https://www.kmk.net.tr/pazaryeri-yazilimi): alıcı, satıcı ve merkezi yönetim süreçlerinin kapsamı.
+- [Baymard: mobil alışveriş sorunları](https://baymard.com/research-articles/mobile-commerce-design): küçük ekranda bağlamı koruma, ana eylemleri netleştirme ve gereksiz karmaşıklığı azaltma.
+- [Baymard: mobil e-ticaret araştırması](https://baymard.com/research/mcommerce-usability): kategori, arama, liste, filtre ve satın alma sürecini birlikte değerlendirme.
+- [Baymard: checkout akışı](https://baymard.com/blog/checkout-flow-ux-optimization): görünür ilerleme, açık eylemler ve satın alma sırasında gereksiz kesintileri azaltma.
+- [NN/g: tanıma ve hatırlama](https://www.nngroup.com/articles/recognition-and-recall/): simgelerle birlikte etiket, seçili koşullar ve kontrol ekranında tekrar görünen ürün bilgileri.
+- [W3C: kontrast](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum): normal metinde 4.5:1 hedefi. Tasarım hedefi, bağımsız uygunluk sertifikası değildir.
+- [W3C: hedef boyutu](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html): temel dokunma alanlarını yaklaşık 44 px veya üzerinde tutma.
+- [GitHub: Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages): statik yayın; sunucu oturumu ve ödeme arka ucu barındırmaz.
+- [KMK: pazaryeri altyapısı](https://www.kmk.net.tr/pazaryeri-yazilimi): alıcı, satıcı ve merkezi yönetim işlemlerinin kapsamı.
 
-## Üretimden önce yapılması gerekenler
+## Doğrulama ve üretime geçiş
 
-KMK tema/API erişimiyle canlı veri ve varyantlar bağlanmalı; kimlik doğrulama, kupon, sipariş, taksit, kargo ve iade kuralları gerçek ortamda test edilmelidir. İlanların online/iletişim ayrımı sunucunun yetkili alanından gelmelidir. İstemcideki statik bilgi ödeme yetkisi sayılmamalıdır. Hesap ve satıcı işlemleri gerçek yetki kontrolü gerektirir.
+Dört kontrol dosyasında 59 otomatik kontrol geçmektedir. Güncel tarayıcı ve ekran boyutu sonuçları [QA.md](QA.md) dosyasında tutulur. Önceki sürümün yerleşim sayıları bu revizyonun sonucu olarak kullanılmaz.
 
-Gerçek müşterilerle görev testi yapılmalıdır: bir ürünü bulma, ilan biçimini anlama, sepete ekleme, adres hatasını düzeltme ve sipariş kontrolü. Bu görevlerin tamamlanma oranı ve hataları ölçülmeden “her kullanıcı zorlanmadan kullanır” sonucu garanti edilemez.
+Üretim için KMK kimlik doğrulaması, canlı ürün/seçenek/stok, fiyat, ödeme, kupon, sipariş, kargo, iade, mesaj ve satıcı yetkileri bağlanmalı; gerçek servislerle uçtan uca kontrol edilmelidir. Kişisel verinin saklanması, silinmesi ve hukuki metinler üretim politikasına uygun uygulanmalıdır.
+
+Gerçek kullanıcılarla ürün bulma, filtreleme, seçenek seçme, ilan biçimini ayırt etme, adres hatasını düzeltme ve sipariş kontrolü görevleri ölçülmelidir. Kod ve tarayıcı kontrolleri yapılmış olması, her kullanıcının sorunsuz kullanacağı garantisi değildir.
+
+
+Son etkileşim düzenlemeleri: kart ve detay fotoğrafında 44 × 44 px kalp düğmesi; karttan doğrudan sepete ekleme; karşılaştırma bağlantısı ilgili ürün alanında (sayfanın üzerine binen sürekli çubuk yok). Kaynaktaki tüm gözlenen galeri fotoğrafları aktarılmıştır. 11 ürün sayfasındaki 16 alışveriş değerlendirmesi, maskeli yazarlar ve üç ayrı değerlendirme ölçütüyle korunmuştur; genel ürün puanı üretilmemiştir. Bildirim tercihi, ürün bağlantısını kopyalama ve değerlendirme taslağı arayüzleri de yereldir.
