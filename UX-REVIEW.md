@@ -1,3 +1,18 @@
+# 7 Kasım 2026 — sürüm 7 ek incelemesi
+
+Bu turda kaynak site, yerel kod ve mobil/masaüstü önizleme birlikte incelendi. Ana görev ürün bulmak, doğru seçeneği seçmek ve satın alma adımlarını anlamak olarak düzenlendi.
+
+1. Ana sayfada altı açık isimli kategori; aynı ölçüde gerçek ürün fotoğrafları. Kategori fotoğrafı ve hedefi bağımsız içerik alanlarıdır. Kullanıcının netleştirmesiyle görsel iyileştirme “Ne arıyorsun?” kartlarına uygulandı; kıyı sahnesi kullanılmadı.
+2. Kartlarda satıcı görülebilir; satın alma ve satıcıyla görüşme ayrımı korunur. Mobil ana gezinmede favoriler doğrudan erişilebilir.
+3. Filtre, sıralama ve sonraki sayfa kategori/mağaza kapsamını bozmaz. Geçerli stok olmadan satın alma açılamaz.
+4. Hemen al ana ürün eylemlerindedir; aynı ürün seçeneğini tekrar sepete eklemeden teslimata devam edebilir. Sepete ekleme ürün sayfasından koparmaz.
+5. Taslaklar düzenlenebilir; çıkışta kişisel oturum verileri temizlenir. Çalışmayan dil/kur seçenekleri kaldırıldı.
+6. İçerik yapılandırması ve gerçek hizmet bağlantıları ayrıldı. `homepage.json` KMK panelinin yerine geçmez; üretim aktarımı için `INTEGRATION.md` hazırlandı.
+
+Sonuç: 103 otomatik kontrol, 136 sayfa/genişlik kontrolü ve son ana sayfada 4 ek kontrol. Bunlar kullanılabilirlik araştırması veya üretime hazır KMK entegrasyonu anlamına gelmez.
+
+---
+
 # Olta Pazarı: tasarım ve kullanılabilirlik incelemesi
 
 Revizyon: 7 Kasım 2026. Kaynak veriler: 6 Kasım 2026. Kapsam, herkese açık orijinal site ve bağımsız arayüz önizlemesidir. Kapalı hesaplara girilmedi; gerçek ödeme, sipariş veya mesaj gönderilmedi.

@@ -11,7 +11,7 @@ const context={
  document:{addEventListener(type,fn){(listeners.document[type]??=[]).push(fn)},body:{classList:{toggle(){}}}},
  window:{addEventListener(type,fn){(listeners.window[type]??=[]).push(fn)}},
  console,URLSearchParams,FormData:FormDataStub,
- URL:{revokeObjectURL:url=>revoked.push(url),createObjectURL:f=>'blob:'+f.name},
+ URL:class extends URL{static revokeObjectURL(url){revoked.push(url)}static createObjectURL(f){return 'blob:'+f.name}},
  products:[{slug:'p',category:'Olta Makineleri',seller:'Satıcı'}],state:{demoOrder:{id:'DENEME-1'}},
  checkoutDraft:{},cartItems:()=>[{p:{slug:'p'},q:1}],
  esc:s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),
@@ -86,4 +86,43 @@ check('Message submission creates an unsent draft rather than sending',()=>{
  submit(form('account-message-form',{recipient:'Satıcı',subject:'Ürün sorusu',message:'Ürünün durumu nedir?'}));assert.equal(read('accountSession.messages.at(-1).subject'),'Ürün sorusu');assert(read('accountSession.notice').includes('gönderilmedi'));
 });
 check('Account module performs no fetch or persistent personal storage',()=>{assert(!/\b(?:fetch|XMLHttpRequest|localStorage|sessionStorage)\s*[.(]/.test(source))});
+check('Saved message drafts reopen and update without creating duplicates',()=>{
+ const id=read('accountSession.messages.at(-1).id'),before=read('accountSession.messages.length');
+ const html=context.accountScreen('messages',new URLSearchParams({edit:id}));assert(html.includes('Ürünün durumu nedir?'));assert(html.includes('Mesaj taslağını düzenle'));
+ const f=form('account-message-form',{id,recipient:'Satıcı',subject:'Teslimat sorusu',message:'Ne zaman kargoya verilir?'});f.id=f.elements.id;submit(f);
+ assert.equal(read('accountSession.messages.length'),before);assert.equal(read('accountSession.messages.at(-1).message'),'Ne zaman kargoya verilir?');
+});
+check('Empty messages view offers a direct way to create a draft',()=>{
+ const saved=read('accountSession.messages');read('accountSession.messages=[]');assert(context.accountScreen('messages',new URLSearchParams()).includes('#messages?new=1'));context.savedMessages=saved;read('accountSession.messages=savedMessages');
+});
+check('Unsupported language and currency selections do not masquerade as working settings',()=>{
+ const html=context.accountScreen('settings',new URLSearchParams());assert(html.includes('<option>Türkçe</option>'));assert(html.includes('<option>TL</option>'));assert(!html.includes('<option >USD</option>'));assert(!html.includes('<option >English</option>'));
+});
+check('Select validation errors are associated with their controls',()=>{
+ const f=form('account-return-form',{reason:'',detail:'Ayrıntılı bir açıklama'});submit(f);assert.equal(f.elements.reason.attributes['aria-describedby'],'account-error-reason');assert.equal(f.elements.reason.attributes['aria-invalid'],'true');assert(f.elements.reason.focused);
+});
+check('Request links reject malformed or unsafe URLs and saved details remain reviewable',()=>{
+ for(const link of ['https://','https://user:password@example.com','javascript:alert(1)','ftp://example.com'])assert(read('accountRules.url('+JSON.stringify(link)+')'));
+ assert.equal(read("accountRules.url('https://example.com/product?id=1')"),'');
+ submit(form('account-request-form',{product:'Örnek makine',quantity:'2',link:'https://example.com/product?id=1',budget:'500',detail:'İki adet mavi renk istiyorum.'}));
+ const html=context.accountScreen('request',new URLSearchParams());assert(html.includes('2 adet'));assert(html.includes('https://example.com/product?id=1'));assert(html.includes('500 TL'));
+});
+check('Cancelling photo selection retains the current photo draft',()=>{
+ read("accountSession.photos=['blob:keep-photo']");const target={id:'account-listing-photos',files:[],closest:()=>null};for(const fn of listeners.document.change)fn({target});assert.equal(read('accountSession.photos[0]'),'blob:keep-photo');assert(!revoked.includes('blob:keep-photo'));
+});
+check('Replacing or removing a listing releases only discarded photos',()=>{
+ read("accountSession.listings=[{id:'photo-edit',photos:['blob:old-photo']}];accountSession.photos=['blob:replacement']");
+ submit(form('account-listing-form',{id:'photo-edit',title:'Örnek olta ürünü',category:'Kamp',condition:'İkinci el',description:'Örnek ürün açıklaması yeterince uzun.',mode:'contact',price:'250',quantity:'1'}));assert(revoked.includes('blob:old-photo'));assert(!revoked.includes('blob:replacement'));
+ click({listingDelete:'photo-edit'});assert(revoked.includes('blob:replacement'));
+});
+check('Leaving the preview clears personal session data and temporary photo URLs',()=>{
+ read("accountSession.signedIn=true;accountSession.photos=['blob:signout-pending'];accountSession.listings=[{photos:['blob:signout-saved']}];accountSession.returnDraft={detail:'Özel bilgi'};checkoutDraft.billingAddress='Özel fatura adresi'");
+ click({},['data-account-signout']);assert.equal(read('accountSession.signedIn'),false);assert.equal(read('accountSession.profile.name'),'');
+ for(const key of ['addresses','messages','listings','requests','photos'])assert.equal(read('accountSession.'+key+'.length'),0);
+ assert.equal(read('accountSession.returnDraft'),null);assert.equal(context.checkoutDraft.billingAddress,undefined);assert.equal(context.checkoutDraft.address,'');assert(revoked.includes('blob:signout-pending'));assert(revoked.includes('blob:signout-saved'));
+});
+check('Leaving the preview also clears newsletter and review drafts when those modules are loaded',()=>{
+ read("let newsletterDraft={email:'private@example.com',products:false,deals:false};let reviewDrafts={p:{rating:'5',review:'Kişisel değerlendirme taslağı'}};accountSession.signedIn=true");
+ click({},['data-account-signout']);assert.equal(read('newsletterDraft.email'),'');assert.equal(read('newsletterDraft.products'),true);assert.equal(read('Object.keys(reviewDrafts).length'),0);
+});
 process.stdout.write(passed+' account checks passed.\n');

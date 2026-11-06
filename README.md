@@ -2,7 +2,7 @@
 
 Olta Pazarı’nın orijinal logosunu ve mavi renklerini koruyan, alıcıya odaklı mobil ve masaüstü arayüz. Yayın: [GitHub Pages](https://mesutkuzu.github.io/oltapazari-yeni-arayuz/).
 
-Ana sayfa **Fırsat Avı** ve **Mağazalardan Seçili Ürünler** ile başlar. Kategoriler doğrudan gezinme alanındadır; av türleri ayrı sayfada keşfedilir. Menü, aramanın hemen solundaki düğmeden soldan açılan çekmecedir. Hesap, kategori ve sepet normal sayfa yollarıyla açılır. Filtreler, ürün listesinin bağlamını koruyan bir çekmecede açılır.
+Ana sayfa kısa karşılama, **Ne arıyorsun?** altında altı görsel kategori, **Fırsat Avı** ve **Mağazalardan seçtiklerimiz** akışıyla ilerler. Kategori kartları gerçek ürün fotoğrafları kullanır; av türleri ayrıca keşfedilir. Menü, aramanın hemen solundaki düğmeden soldan açılan çekmecedir. Hesap, kategori ve sepet normal sayfa yollarıyla açılır. Filtreler, ürün listesinin bağlamını koruyan bir çekmecede açılır.
 
 ## Çalışan arayüz
 
@@ -50,9 +50,10 @@ node checks/filters.cjs
 node checks/flows.cjs
 node checks/storefront.cjs
 node checks/account.cjs
+node checks/homepage.cjs
 ```
 
-Dört kontrol dosyasında 59 otomatik kontrol geçmektedir. Bunlar kullanıcı araştırması veya bağımsız erişilebilirlik sertifikası değildir. Güncel tarayıcı doğrulamaları [QA.md](QA.md), tasarım kararları ve araştırma kaynakları [UX-REVIEW.md](UX-REVIEW.md) dosyasındadır.
+Beş kontrol dosyasında 103 otomatik kontrol geçmektedir. Bunlar kullanıcı araştırması veya bağımsız erişilebilirlik sertifikası değildir. Güncel tarayıcı doğrulamaları [QA.md](QA.md), tasarım kararları ve araştırma kaynakları [UX-REVIEW.md](UX-REVIEW.md) dosyasındadır.
 
 
 Son etkileşim düzenlemeleri: kart ve detay fotoğrafında 44 × 44 px kalp düğmesi; karttan doğrudan sepete ekleme; karşılaştırma bağlantısı ilgili ürün alanında (sayfanın üzerine binen sürekli çubuk yok). Kaynaktaki tüm gözlenen galeri fotoğrafları aktarılmıştır. 11 ürün sayfasındaki 16 alışveriş değerlendirmesi, maskeli yazarlar ve üç ayrı değerlendirme ölçütüyle korunmuştur; genel ürün puanı üretilmemiştir. Bildirim tercihi, ürün bağlantısını kopyalama ve değerlendirme taslağı arayüzleri de yereldir.
@@ -60,3 +61,14 @@ Son etkileşim düzenlemeleri: kart ve detay fotoğrafında 44 × 44 px kalp dü
 Son menü düzeni: düğme arama çubuğunun hemen solundadır ve soldan panel açar. Açılış sayfa adresini değiştirmez; Escape, Kapat ve bölüm seçimi paneli kapatır. Av türleri üst gezinmede ve kategorilerde Ekipmana göre / Av türüne göre sekmelerinde görünür. Kategori ve marka kartlarında genel dekoratif ikonlar kaldırılmıştır.
 
 Favorilere erişim: kart ve detay kalplerine ek olarak üst başlıkta doğrudan Favorilerim kısayolu bulunur. Menünün ilk görünen bölümünde Favorilerim ve Sepetim kısayolları vardır; kaydırma veya hesap sayfası gerekmez.
+
+
+## 7 Kasım: yeni arayüz ve yönetilebilir ana sayfa
+
+- Ürün kartlarında satıcı bağlantısı, daha tutarlı fotoğraf alanı ve mobilde beş ana kısayol.
+- Kategori/mağaza sıralama ve sayfalamasında kapsam korunur; birden fazla marka seçimi kaybolmaz.
+- Stoku doğrulanmamış ürünler satın alınamaz. Seçenekli üründe eksik seçim ve tekrar adet eklenmesi engellenir.
+- Mesaj/değerlendirme taslakları düzenlenebilir; önizlemeden çıkış kişisel oturum taslaklarını temizler.
+- `homepage.json` başlık, açıklama, düğme, görsel, kategori kartı ve ürün seçkilerini yönetir. Geçersiz veya eksik dosyada güvenli varsayılanlar kullanılır. Kategori `imageFrame` değeri `contain`, `rod-detail` veya `line-spool` olabilir; görsel çerçevesi kart sıralamasından bağımsızdır.
+
+**Mevcut KMK yönetim paneli bağlı değildir.** JSON dosyası bir içerik sözleşmesidir; canlı tema/panel uyumluluğu ancak KMK şablonları ve servisleriyle entegrasyon sonrası doğrulanabilir. Devir ve eşleme planı: [INTEGRATION.md](INTEGRATION.md). GitHub Pages yayını arayüz önizlemesidir; KMK üretim entegrasyonunun tamamlandığı anlamına gelmez.

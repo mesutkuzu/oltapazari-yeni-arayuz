@@ -1,0 +1,1365 @@
+{
+  "date": "2026-11-07",
+  "checks": [
+    {
+      "route": "home",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Doğru ekipman.Daha güzel bir av."
+    },
+    {
+      "route": "categories",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Kategoriler"
+    },
+    {
+      "route": "category?path=balikcilik",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Balıkçılık"
+    },
+    {
+      "route": "category?path=olta-makineleri",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Olta Makineleri"
+    },
+    {
+      "route": "category?path=spin-makineleri",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Spin Makineleri"
+    },
+    {
+      "route": "techniques",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Av türleri"
+    },
+    {
+      "route": "discipline?name=Surf",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Surf için ne arıyorsun?"
+    },
+    {
+      "route": "listings",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Bireysel ilanlar"
+    },
+    {
+      "route": "catalog",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Tüm ürünler"
+    },
+    {
+      "route": "catalog?kind=listing&mode=contact",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Satıcıyla görüşülen ilanlar"
+    },
+    {
+      "route": "catalog?brand=Shimano%2CDaiwa&max=20000&stock=1",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Tüm ürünler"
+    },
+    {
+      "route": "stores",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Mağazalar ve satıcılar"
+    },
+    {
+      "route": "store?id=olta-pazari-shop",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Olta Pazarı Shop"
+    },
+    {
+      "route": "brands",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Markalar"
+    },
+    {
+      "route": "product?id=daiichi-seiko-pickers-ex",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [
+        "",
+        ""
+      ],
+      "scrollWidth": 320,
+      "title": "Daiichi Seiko Pickers +EX"
+    },
+    {
+      "route": "product?id=shimano-stradic-sw-8000pg-olta-makinesi",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 320,
+      "title": "Shimano Stradic SW 8000PG Olta Makinesi"
+    },
+    {
+      "route": "gallery?id=shimano-stradic-sw-8000pg-olta-makinesi&photo=1",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Ürün fotoğrafları"
+    },
+    {
+      "route": "cart",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Sepetim"
+    },
+    {
+      "route": "compare",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Ürünleri karşılaştır"
+    },
+    {
+      "route": "finder",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Birlikte bulalım."
+    },
+    {
+      "route": "help",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Nasıl yardımcı olabiliriz?"
+    },
+    {
+      "route": "account",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Hesabım"
+    },
+    {
+      "route": "addresses",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 320,
+      "title": "Adreslerim"
+    },
+    {
+      "route": "profile",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 320,
+      "title": "Hesap bilgilerim"
+    },
+    {
+      "route": "messages",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 320,
+      "title": "Mesajlarım"
+    },
+    {
+      "route": "request",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Yurt dışından özel sipariş"
+    },
+    {
+      "route": "sell-new",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [
+        "active",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 320,
+      "title": "Ürün / ilan ekle"
+    },
+    {
+      "route": "seller",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 320,
+      "title": "Satıcı alanı"
+    },
+    {
+      "route": "seller-settings",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 320,
+      "title": "Mağaza ayarları"
+    },
+    {
+      "route": "settings",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Görünüm tercihleri"
+    },
+    {
+      "route": "newsletter",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Fırsatlardan haberdar ol"
+    },
+    {
+      "route": "guide",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Balıkçılık rehberi"
+    },
+    {
+      "route": "directory",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Aradığın her şey burada."
+    },
+    {
+      "route": "catalog?favorites=1",
+      "width": 320,
+      "actualWidth": 320,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Favorilerim"
+    },
+    {
+      "route": "home",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Doğru ekipman.Daha güzel bir av."
+    },
+    {
+      "route": "categories",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Kategoriler"
+    },
+    {
+      "route": "category?path=balikcilik",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Balıkçılık"
+    },
+    {
+      "route": "category?path=olta-makineleri",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Olta Makineleri"
+    },
+    {
+      "route": "category?path=spin-makineleri",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Spin Makineleri"
+    },
+    {
+      "route": "techniques",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Av türleri"
+    },
+    {
+      "route": "discipline?name=Surf",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Surf için ne arıyorsun?"
+    },
+    {
+      "route": "listings",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Bireysel ilanlar"
+    },
+    {
+      "route": "catalog",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Tüm ürünler"
+    },
+    {
+      "route": "catalog?kind=listing&mode=contact",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Satıcıyla görüşülen ilanlar"
+    },
+    {
+      "route": "catalog?brand=Shimano%2CDaiwa&max=20000&stock=1",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Tüm ürünler"
+    },
+    {
+      "route": "stores",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Mağazalar ve satıcılar"
+    },
+    {
+      "route": "store?id=olta-pazari-shop",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Olta Pazarı Shop"
+    },
+    {
+      "route": "brands",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Markalar"
+    },
+    {
+      "route": "product?id=daiichi-seiko-pickers-ex",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Daiichi Seiko Pickers +EX"
+    },
+    {
+      "route": "product?id=shimano-stradic-sw-8000pg-olta-makinesi",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 390,
+      "title": "Shimano Stradic SW 8000PG Olta Makinesi"
+    },
+    {
+      "route": "gallery?id=shimano-stradic-sw-8000pg-olta-makinesi&photo=1",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Ürün fotoğrafları"
+    },
+    {
+      "route": "cart",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Sepetim"
+    },
+    {
+      "route": "compare",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Ürünleri karşılaştır"
+    },
+    {
+      "route": "finder",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Birlikte bulalım."
+    },
+    {
+      "route": "help",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Nasıl yardımcı olabiliriz?"
+    },
+    {
+      "route": "account",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Hesabım"
+    },
+    {
+      "route": "addresses",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 390,
+      "title": "Adreslerim"
+    },
+    {
+      "route": "profile",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 390,
+      "title": "Hesap bilgilerim"
+    },
+    {
+      "route": "messages",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 390,
+      "title": "Mesajlarım"
+    },
+    {
+      "route": "request",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Yurt dışından özel sipariş"
+    },
+    {
+      "route": "sell-new",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [
+        "active",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 390,
+      "title": "Ürün / ilan ekle"
+    },
+    {
+      "route": "seller",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 390,
+      "title": "Satıcı alanı"
+    },
+    {
+      "route": "seller-settings",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 390,
+      "title": "Mağaza ayarları"
+    },
+    {
+      "route": "settings",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Görünüm tercihleri"
+    },
+    {
+      "route": "newsletter",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Fırsatlardan haberdar ol"
+    },
+    {
+      "route": "guide",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Balıkçılık rehberi"
+    },
+    {
+      "route": "directory",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Aradığın her şey burada."
+    },
+    {
+      "route": "catalog?favorites=1",
+      "width": 390,
+      "actualWidth": 390,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Favorilerim"
+    },
+    {
+      "route": "home",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Doğru ekipman.Daha güzel bir av."
+    },
+    {
+      "route": "categories",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Kategoriler"
+    },
+    {
+      "route": "category?path=balikcilik",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Balıkçılık"
+    },
+    {
+      "route": "category?path=olta-makineleri",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Olta Makineleri"
+    },
+    {
+      "route": "category?path=spin-makineleri",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Spin Makineleri"
+    },
+    {
+      "route": "techniques",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Av türleri"
+    },
+    {
+      "route": "discipline?name=Surf",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Surf için ne arıyorsun?"
+    },
+    {
+      "route": "listings",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Bireysel ilanlar"
+    },
+    {
+      "route": "catalog",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Tüm ürünler"
+    },
+    {
+      "route": "catalog?kind=listing&mode=contact",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Satıcıyla görüşülen ilanlar"
+    },
+    {
+      "route": "catalog?brand=Shimano%2CDaiwa&max=20000&stock=1",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Tüm ürünler"
+    },
+    {
+      "route": "stores",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Mağazalar ve satıcılar"
+    },
+    {
+      "route": "store?id=olta-pazari-shop",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Olta Pazarı Shop"
+    },
+    {
+      "route": "brands",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Markalar"
+    },
+    {
+      "route": "product?id=daiichi-seiko-pickers-ex",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Daiichi Seiko Pickers +EX"
+    },
+    {
+      "route": "product?id=shimano-stradic-sw-8000pg-olta-makinesi",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [
+        "",
+        ""
+      ],
+      "scrollWidth": 768,
+      "title": "Shimano Stradic SW 8000PG Olta Makinesi"
+    },
+    {
+      "route": "gallery?id=shimano-stradic-sw-8000pg-olta-makinesi&photo=1",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Ürün fotoğrafları"
+    },
+    {
+      "route": "cart",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Sepetim"
+    },
+    {
+      "route": "compare",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Ürünleri karşılaştır"
+    },
+    {
+      "route": "finder",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Birlikte bulalım."
+    },
+    {
+      "route": "help",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Nasıl yardımcı olabiliriz?"
+    },
+    {
+      "route": "account",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Hesabım"
+    },
+    {
+      "route": "addresses",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [
+        "active",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 768,
+      "title": "Adreslerim"
+    },
+    {
+      "route": "profile",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 768,
+      "title": "Hesap bilgilerim"
+    },
+    {
+      "route": "messages",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 768,
+      "title": "Mesajlarım"
+    },
+    {
+      "route": "request",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Yurt dışından özel sipariş"
+    },
+    {
+      "route": "sell-new",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 768,
+      "title": "Ürün / ilan ekle"
+    },
+    {
+      "route": "seller",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 768,
+      "title": "Satıcı alanı"
+    },
+    {
+      "route": "seller-settings",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "scrollWidth": 768,
+      "title": "Mağaza ayarları"
+    },
+    {
+      "route": "settings",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Görünüm tercihleri"
+    },
+    {
+      "route": "newsletter",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Fırsatlardan haberdar ol"
+    },
+    {
+      "route": "guide",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Balıkçılık rehberi"
+    },
+    {
+      "route": "directory",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Aradığın her şey burada."
+    },
+    {
+      "route": "catalog?favorites=1",
+      "width": 768,
+      "actualWidth": 768,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 768,
+      "title": "Favorilerim"
+    },
+    {
+      "route": "home",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Doğru ekipman.Daha güzel bir av."
+    },
+    {
+      "route": "categories",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Kategoriler"
+    },
+    {
+      "route": "category?path=balikcilik",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Balıkçılık"
+    },
+    {
+      "route": "category?path=olta-makineleri",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Olta Makineleri"
+    },
+    {
+      "route": "category?path=spin-makineleri",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Spin Makineleri"
+    },
+    {
+      "route": "techniques",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Av türleri"
+    },
+    {
+      "route": "discipline?name=Surf",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Surf için ne arıyorsun?"
+    },
+    {
+      "route": "listings",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Bireysel ilanlar"
+    },
+    {
+      "route": "catalog",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Tüm ürünler"
+    },
+    {
+      "route": "catalog?kind=listing&mode=contact",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Satıcıyla görüşülen ilanlar"
+    },
+    {
+      "route": "catalog?brand=Shimano%2CDaiwa&max=20000&stock=1",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Tüm ürünler"
+    },
+    {
+      "route": "stores",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Mağazalar ve satıcılar"
+    },
+    {
+      "route": "store?id=olta-pazari-shop",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Olta Pazarı Shop"
+    },
+    {
+      "route": "brands",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Markalar"
+    },
+    {
+      "route": "product?id=daiichi-seiko-pickers-ex",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Daiichi Seiko Pickers +EX"
+    },
+    {
+      "route": "product?id=shimano-stradic-sw-8000pg-olta-makinesi",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Shimano Stradic SW 8000PG Olta Makinesi"
+    },
+    {
+      "route": "gallery?id=shimano-stradic-sw-8000pg-olta-makinesi&photo=1",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Ürün fotoğrafları"
+    },
+    {
+      "route": "cart",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Sepetim"
+    },
+    {
+      "route": "compare",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Ürünleri karşılaştır"
+    },
+    {
+      "route": "finder",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Birlikte bulalım."
+    },
+    {
+      "route": "help",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Nasıl yardımcı olabiliriz?"
+    },
+    {
+      "route": "account",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Hesabım"
+    },
+    {
+      "route": "addresses",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Adreslerim"
+    },
+    {
+      "route": "profile",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Hesap bilgilerim"
+    },
+    {
+      "route": "messages",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Mesajlarım"
+    },
+    {
+      "route": "request",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Yurt dışından özel sipariş"
+    },
+    {
+      "route": "sell-new",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Ürün / ilan ekle"
+    },
+    {
+      "route": "seller",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Satıcı alanı"
+    },
+    {
+      "route": "seller-settings",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Mağaza ayarları"
+    },
+    {
+      "route": "settings",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Görünüm tercihleri"
+    },
+    {
+      "route": "newsletter",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Fırsatlardan haberdar ol"
+    },
+    {
+      "route": "guide",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Balıkçılık rehberi"
+    },
+    {
+      "route": "directory",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Aradığın her şey burada."
+    },
+    {
+      "route": "catalog?favorites=1",
+      "width": 1280,
+      "actualWidth": 1280,
+      "h1": 1,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Favorilerim"
+    }
+  ],
+  "finalHomepage": [
+    {
+      "brokenImages": 0,
+      "categoryCount": 6,
+      "h1": 1,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "brokenImages": 0,
+      "categoryCount": 6,
+      "h1": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "brokenImages": 0,
+      "categoryCount": 6,
+      "h1": 1,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "brokenImages": 0,
+      "categoryCount": 6,
+      "h1": 1,
+      "scrollWidth": 1280,
+      "width": 1280
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "hero": {
+    "eyebrow": "TÜRKİYE’NİN BALIKÇILIK PAZARYERİ",
+    "title": "Doğru ekipman.\nDaha güzel bir av.",
+    "description": "İster ilk oltan, ister takımının eksik parçası.\nAradığını kolayca bul, avına hazırlan.",
+    "primaryAction": {
+      "label": "Ürünleri keşfet",
+      "href": "#catalog"
+    },
+    "secondaryAction": {
+      "label": "Nereden başlamalıyım?",
+      "href": "#finder"
+    },
+    "image": "assets/disciplines/spin-v2.webp",
+    "imageAlt": "Spin balıkçılık ekipmanları",
+    "caption": "Bir sonraki avına hazır ol."
+  },
+  "categories": {
+    "title": "Ne arıyorsun?",
+    "action": {
+      "label": "Tüm kategoriler",
+      "href": "#categories"
+    },
+    "items": [
+      {
+        "label": "Olta Makineleri",
+        "href": "#catalog?category=Olta+Makineleri",
+        "image": "assets/home/category-reel-v1.png",
+        "imageAlt": "",
+        "imageFrame": "contain"
+      },
+      {
+        "label": "Olta Kamışları",
+        "href": "#catalog?category=Olta+Kam%C4%B1%C5%9Flar%C4%B1",
+        "image": "assets/detail-fac02186fdceab96b4.webp",
+        "imageAlt": "",
+        "imageFrame": "rod-detail"
+      },
+      {
+        "label": "Yapay Yemler",
+        "href": "#catalog?category=Yapay+Yemler",
+        "image": "assets/p-28bdac8e9fb41ce8.webp",
+        "imageAlt": "",
+        "imageFrame": "contain"
+      },
+      {
+        "label": "İp ve Misina",
+        "href": "#catalog?category=%C4%B0p+ve+Misina",
+        "image": "assets/p-750bbc98812e77bb.webp",
+        "imageAlt": "",
+        "imageFrame": "line-spool"
+      },
+      {
+        "label": "Hazır Setler",
+        "href": "#catalog?category=Haz%C4%B1r+Setler",
+        "image": "assets/p-01be0a08627ad6b0.webp",
+        "imageAlt": "",
+        "imageFrame": "contain"
+      },
+      {
+        "label": "Aksesuarlar",
+        "href": "#catalog?category=Di%C4%9Fer+Ekipmanlar",
+        "image": "assets/p-da6b5340b1d070a5.webp",
+        "imageAlt": "",
+        "imageFrame": "contain"
+      }
+    ]
+  },
+  "deals": {
+    "eyebrow": "SEÇİLİ İNDİRİMLER",
+    "title": "Fırsat Avı",
+    "description": "Takımını tamamlamak için iyi bir fırsat.",
+    "action": {
+      "label": "Tüm fırsatlar",
+      "href": "#catalog?deal=1"
+    },
+    "productSlugs": []
+  },
+  "featured": {
+    "title": "Mağazalardan seçtiklerimiz",
+    "description": "Farklı ihtiyaçlar, bir arada.",
+    "action": {
+      "label": "Mağaza ürünleri",
+      "href": "#catalog?kind=store"
+    },
+    "productSlugs": [
+      "effe-alasca-lox-olta-seti-360-m-5000-makine",
+      "daiwa-24-airity-sf-1000s-p",
+      "prox-fish-catcher-r-regular-grip-balik-tutucu",
+      "sea-fang-lead-core-600-m-cok-renkli-kursun-cekirdekli-trolling-ipi"
+    ]
+  },
+  "paths": [
+    {
+      "title": "Avına göre seç",
+      "description": "LRF, spin, surf ve diğer av türleri için ekipmanlar.",
+      "href": "#techniques",
+      "icon": "compass"
+    },
+    {
+      "title": "Balıkçıdan balıkçıya",
+      "description": "Bireysel satıcıların ürünlerini ve ilanlarını keşfet.",
+      "href": "#listings",
+      "icon": "user"
+    }
+  ],
+  "request": {
+    "title": "Aradığın ürün Türkiye’de yok mu?",
+    "description": "Marka ve modelini yaz, yurt dışından ürün talebini hazırla.",
+    "action": {
+      "label": "Ürün talebi oluştur",
+      "href": "#request"
+    }
+  },
+  "assistance": {
+    "title": "Seçim yaparken yardıma mı ihtiyacın var?",
+    "description": "İki kısa soruyla sana uygun ekipman grubundan başlayalım.",
+    "action": {
+      "label": "Birlikte seçelim",
+      "href": "#finder"
+    }
+  }
+}

@@ -1,3 +1,30 @@
+# Güncel doğrulama — 7 Kasım 2026, sürüm 7
+
+## Otomatik kontroller
+
+Son dosyalar üzerinde **103 kontrol geçti**: filtre 19, akış 20, mağaza/ürün 26, hesap 22, ana sayfa içerik yapılandırması 16. `git diff --check` temiz. Bu kontroller gerçek kullanıcı testi veya canlı KMK entegrasyon testi değildir.
+
+## Tarayıcı doğrulaması
+
+34 sayfa × 4 genişlik (320, 390, 768, 1280 px): **136 yerleşim kontrolü**. Yatay sayfa taşması yok; her sayfada tek ana başlık var. Son ana sayfa yapılandırma ve görsel değişikliğinden sonra dört genişlikte 4 ek kontrol: altı kategori kartı, tek başlık ve kırık olmayan fotoğraflar. Sonuçlar `qa-layout-v7.json` içinde. Tarayıcı konsolunda gözlenen hata/uyarı yok.
+
+Gerçek tıklamalarla mobil kategori → filtre (101 ürün → en fazla 5.000 TL ile 3 ürün) → sepete ekle → sepet → eksik teslimat uyarıları → örnek teslimat → kontrol → deneme sonucu tamamlandı. Gerçek sipariş veya ödeme oluşmadı. Form hata metinleri erişilebilir alan adından ayrıldı. Önceki sürümlerin galeri/menü testleri aşağıda tarihsel kayıt olarak duruyor; bu turdaki düzeltmeler ilgili regresyon testleriyle de doğrulandı.
+
+## Görsel teslim
+
+- `preview/desktop-v7.jpg`: güncel masaüstü ana sayfa.
+- `preview/mobile-v7.jpg`: güncel mobil ana sayfa.
+- `preview/categories-v7.jpg`: kullanıcının özellikle istediği “Ne arıyorsun?” fotoğraf düzeni.
+- Kategori fotoğrafları kaynak katalogdan; makine fotoğrafında yalnız arka plan temizleme düzenlemesi kullanıldı. Yeni üretilen kıyı sahnesi kullanıcı tarafından beğenilmedi ve projeye eklenmedi.
+
+## Üretim sınırı
+
+Yönetim paneli, canlı stok/fiyat, gerçek üyelik/ödeme ve sipariş bağlı değil. Ana sayfa ayarları `homepage.json` dosyasından okunur. KMK’ye aktarım şartları `INTEGRATION.md` içinde; tam uyumluluk doğrulanmış gibi sunulmamalı.
+
+---
+
+# Önceki sürümün tarihsel doğrulama kaydı
+
 # Son sürüm doğrulaması
 
 7 Kasım 2026. Kaynak katalog 6 Kasım 2026 tarihli sabit örnektir.

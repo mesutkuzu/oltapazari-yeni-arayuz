@@ -31,4 +31,6 @@ check('All product and category assets exist',()=>{for(let p of data.products)as
 check('Contact-only ads cannot be added to cart',()=>{let p=data.products.find(p=>p.paymentMode==='contact');assert.equal(context.addCart(p.slug),false);assert.equal(context.state.cart[p.slug],undefined)});
 check('Source quantity limit is enforced on repeated add',()=>{let p=data.products.find(p=>p.paymentMode==='online'&&p.stockStatus==='in'&&p.maxQty===1);assert.equal(context.addCart(p.slug),true);assert.equal(context.addCart(p.slug),false);assert.equal(context.state.cart[p.slug],1)});
 check('Unavailable products cannot be added to cart',()=>{let p=data.products.find(p=>p.stockStatus==='out');assert.equal(context.addCart(p.slug),false);assert.equal(context.state.cart[p.slug],undefined)});
+check('Repeated brand parameters preserve every selected brand',()=>{let r=filter('brand=Shimano&brand=Daiwa');assert(r.some(p=>p.brand==='Shimano'));assert(r.some(p=>p.brand==='Daiwa'));assert(r.every(p=>['Shimano','Daiwa'].includes(p.brand)))});
+check('Stock-unverified online listings cannot be added to cart',()=>{let p=data.products.find(p=>p.paymentMode==='online'&&p.stockStatus==='unknown');assert(p);assert.equal(context.addCart(p.slug),false);assert.equal(context.state.cart[p.slug],undefined)});
 process.stdout.write(passed+' checks passed.\n');
