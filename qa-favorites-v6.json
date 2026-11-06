@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-07",
+  "checks": [
+    {
+      "favoriteHeaderVisible": true,
+      "menuRight": 62,
+      "rowDifference": 1.796875,
+      "scrollWidth": 320,
+      "searchLeft": 72,
+      "width": 320,
+      "drawerOpen": true,
+      "favoritePanelVisible": true,
+      "hash": "#home",
+      "expectedWidth": 320
+    },
+    {
+      "favoriteHeaderVisible": true,
+      "menuRight": 64,
+      "rowDifference": 1.796875,
+      "scrollWidth": 390,
+      "searchLeft": 74,
+      "width": 390,
+      "drawerOpen": true,
+      "favoritePanelVisible": true,
+      "hash": "#home",
+      "expectedWidth": 390
+    },
+    {
+      "favoriteHeaderVisible": true,
+      "menuRight": 128,
+      "rowDifference": 2.796875,
+      "scrollWidth": 768,
+      "searchLeft": 140,
+      "width": 768,
+      "drawerOpen": true,
+      "favoritePanelVisible": true,
+      "hash": "#home",
+      "expectedWidth": 768
+    },
+    {
+      "favoriteHeaderVisible": true,
+      "menuRight": 373,
+      "rowDifference": 2.796875,
+      "scrollWidth": 1280,
+      "searchLeft": 385,
+      "width": 1280,
+      "drawerOpen": true,
+      "favoritePanelVisible": true,
+      "hash": "#home",
+      "expectedWidth": 1280
+    }
+  ]
+}

@@ -42,3 +42,5 @@ Bu sonuçlar çalışan arayüz önizlemesini doğrular. Gerçek müşterilerle 
 ## Son menü ve kategori düzeni
 
 `qa-header-v5.json`: dört genişlikte 20 ek kontrol. Menü düğmesinin aramayla aynı satırda ve aramanın solunda kalması, sol panelin taşmaması ve Escape ile kapanması denetlendi. Kategori ve av türleri arasındaki görünür sekmeler; menüden Av türleri seçiminin normal sayfa açması tarayıcıda doğrulandı. `qa-menu-v4.json` ara düzenin arşividir; son konum aramanın soludur.
+
+`qa-favorites-v6.json`: dört genişlikte favori kısayolunun başlıkta görünürlüğü, menü panelinde kaydırmadan görünmesi ve panelden favori listesine geçiş kontrol edildi.

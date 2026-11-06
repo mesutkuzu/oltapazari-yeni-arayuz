@@ -58,3 +58,5 @@ Dört kontrol dosyasında 59 otomatik kontrol geçmektedir. Bunlar kullanıcı a
 Son etkileşim düzenlemeleri: kart ve detay fotoğrafında 44 × 44 px kalp düğmesi; karttan doğrudan sepete ekleme; karşılaştırma bağlantısı ilgili ürün alanında (sayfanın üzerine binen sürekli çubuk yok). Kaynaktaki tüm gözlenen galeri fotoğrafları aktarılmıştır. 11 ürün sayfasındaki 16 alışveriş değerlendirmesi, maskeli yazarlar ve üç ayrı değerlendirme ölçütüyle korunmuştur; genel ürün puanı üretilmemiştir. Bildirim tercihi, ürün bağlantısını kopyalama ve değerlendirme taslağı arayüzleri de yereldir.
 
 Son menü düzeni: düğme arama çubuğunun hemen solundadır ve soldan panel açar. Açılış sayfa adresini değiştirmez; Escape, Kapat ve bölüm seçimi paneli kapatır. Av türleri üst gezinmede ve kategorilerde Ekipmana göre / Av türüne göre sekmelerinde görünür. Kategori ve marka kartlarında genel dekoratif ikonlar kaldırılmıştır.
+
+Favorilere erişim: kart ve detay kalplerine ek olarak üst başlıkta doğrudan Favorilerim kısayolu bulunur. Menünün ilk görünen bölümünde Favorilerim ve Sepetim kısayolları vardır; kaydırma veya hesap sayfası gerekmez.
