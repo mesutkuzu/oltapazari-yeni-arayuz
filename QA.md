@@ -1,3 +1,28 @@
+# Yayın öncesi derin inceleme — sürüm 10
+
+7 Kasım 2026. Son dosyalarda **108/108 otomatik kontrol geçti**: filtre 19, akış 23, ürün/mağaza 26, hesap 24, ana sayfa 16. Sözdizimi ve `git diff --check` temiz.
+
+## İncelemede giderilenler
+
+- Satıcı, eski fiyat, bölüm açıklaması ve alt bilgi yazılarında kontrast yükseltildi: beyazda 5,16:1; sayfa zemininde 4,89:1.
+- Koyu karşılama alanında klavye odağı 10,54:1 kontrasta taşındı.
+- Satıcı bağlantıları 32 px, mobil kategori yazıları en az 12 px; işlem düğmeleri en az 44 px oldu.
+- 601–850 px arasında yanlışlıkla gizlenen Av türleri bağlantısı geri getirildi.
+- Geçerli bilgi girildiğinde teslimat alanındaki eski hata yazısı temizleniyor; diğer hatalar korunuyor.
+- Teslimatta adres başlığıyla kayıt, kayıtlı adres seçimi ve mevcut adresi tekrar kullanma eklendi. Aynı kayıt çoğaltılmıyor; varsayılan/düzenle/sil akışları ortak adres katmanını kullanıyor.
+
+## Mobil ve masaüstü
+
+Yerel vitrin taslağında altı temsilci sayfa × dört genişlik = 24 yerleşim kontrolü `qa-vitrine-local.json` içinde. Son kayıtlı adresli teslimat ve ana sayfa, 320, 390, 600, 601, 768 ve 1280 px genişliklerde 12 ek kontrolden geçti (`qa-release-v10.json`): yatay taşma yok, tek ana başlık, giriş alanı yazıları 16 px. Bu kayıt, tüm tarihsel ekranların bu turda yeniden tarandığı anlamına gelmez.
+
+Gerçek mobil tıklamalarla eksik ürün seçeneği uyarısı, seçim sonrası hatanın temizlenmesi, sayfadan ayrılmadan sepete ekleme, Hemen al ile aynı seçeneğin adedini artırmadan teslimata geçiş, farklı fatura adresi, seçeneğin kontrol adımında korunması ve adresi kaydedip Adreslerim'den teslimata yeniden seçme doğrulandı. Filtre paneli 390 px ekrana sığdı; Escape sonrası odak Filtrele düğmesine döndü. Menü de Escape ile kapandı ve odağı açma düğmesine geri verdi. Önceden sorun gözlenen Shimano galeri fotoğrafı bu kontrolde 1000 px doğal genişlikte yüklendi.
+
+## Gerçek sistem sınırı ve devir
+
+Bu bir arayüz önizlemesidir. Gerçek ödeme, üyelik veya sunucu adres kaydı bağlı değildir. Adresler açık oturumda tutulur; kişisel adresler tarayıcı kalıcı depolamasına yazılmaz. Kalıcı kullanıcı hesabı/veritabanı işlemleri için `ADDRESS-INTEGRATION.md` ve `INTEGRATION.md` izlenmelidir. Bu inceleme bağımsız erişilebilirlik sertifikası veya gerçek müşteri kullanılabilirlik araştırması değildir.
+
+---
+
 # Mobil gezinme doğrulaması — sürüm 8
 
 7 Kasım 2026. Mobilde beş sekme gerçek tıklamalarla değiştirildi; her geçişte yalnız doğru sekmede `aria-current="page"`, dolu ikon ve seçim vurgusu görüldü. Vurgu 280 ms, ikon geçişi 180–240 ms; CSS hareket azaltma tercihini destekliyor.

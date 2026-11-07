@@ -57,3 +57,8 @@ Panelde bir değişiklik kaydedildiğinde tema aynı veri kaynağından yeniden 
 ## Devri tamamlamak için gerekenler
 
 KMK ekibinden kurulu sürüm ve tema düzenleme yöntemi, ortak/ürün/kategori/sepet şablonları, panel vitrin alanları, mevcut form veya API sözleşmeleri ve test ortamı istenmeli. Bu bilgilerle önce bir kategori → seçenekli ürün → sepet → test siparişi akışı doğrulanmalı. Panelde banner ve seçili ürün değişikliğinin yeni arayüzde görünmesi ayrıca kabul ölçütüdür. Canlı uyumluluk ancak bu bağlantılar çalıştırılıp doğrulandıktan sonra söylenebilir.
+
+
+## Kayıtlı adreslerin kalıcı hesaba aktarımı
+
+Teslimat ve Adreslerim akışı için ayrıntılı [adres entegrasyonu sözleşmesi](ADDRESS-INTEGRATION.md) esas alınmalıdır. Önizlemenin `saveSavedAddress`, `removeSavedAddress`, `useSavedAddress` ve varsayılan adres işlemleri, gerçek kullanıcı oturumu ve sunucu veritabanı ile eşlenmelidir. Tarayıcıda kalıcı kişisel veri saklayan bir alternatif eklenmemiştir. Gerçek siparişler teslimat/fatura adresinin değişmez kopyasını tutmalı; adres defterindeki sonraki düzenlemeler geçmiş siparişleri değiştirmemelidir.

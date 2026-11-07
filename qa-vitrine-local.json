@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-07",
+  "localOnly": true,
+  "checks": [
+    {
+      "route": "home",
+      "mainHeadings": 1,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "route": "categories",
+      "mainHeadings": 1,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "route": "catalog",
+      "mainHeadings": 1,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "route": "product?id=shimano-stradic-sw-8000pg-olta-makinesi",
+      "mainHeadings": 1,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "route": "cart",
+      "mainHeadings": 1,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "route": "account",
+      "mainHeadings": 1,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "route": "home",
+      "mainHeadings": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "categories",
+      "mainHeadings": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "catalog",
+      "mainHeadings": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "product?id=shimano-stradic-sw-8000pg-olta-makinesi",
+      "mainHeadings": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "cart",
+      "mainHeadings": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "account",
+      "mainHeadings": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "home",
+      "mainHeadings": 1,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "route": "categories",
+      "mainHeadings": 1,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "route": "catalog",
+      "mainHeadings": 1,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "route": "product?id=shimano-stradic-sw-8000pg-olta-makinesi",
+      "mainHeadings": 1,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "route": "cart",
+      "mainHeadings": 1,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "route": "account",
+      "mainHeadings": 1,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "route": "home",
+      "mainHeadings": 1,
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "route": "categories",
+      "mainHeadings": 1,
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "route": "catalog",
+      "mainHeadings": 1,
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "route": "product?id=shimano-stradic-sw-8000pg-olta-makinesi",
+      "mainHeadings": 1,
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "route": "cart",
+      "mainHeadings": 1,
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "route": "account",
+      "mainHeadings": 1,
+      "scrollWidth": 1280,
+      "width": 1280
+    }
+  ]
+}

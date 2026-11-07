@@ -3,18 +3,18 @@
   "hero": {
     "eyebrow": "TÜRKİYE’NİN BALIKÇILIK PAZARYERİ",
     "title": "Doğru ekipman.\nDaha güzel bir av.",
-    "description": "İster ilk oltan, ister takımının eksik parçası.\nAradığını kolayca bul, avına hazırlan.",
+    "description": "İlk oltandan takımının eksik parçasına.\nAradığın ekipmanı kolayca bul.",
     "primaryAction": {
       "label": "Ürünleri keşfet",
       "href": "#catalog"
     },
     "secondaryAction": {
-      "label": "Nereden başlamalıyım?",
+      "label": "Seçim yardımı",
       "href": "#finder"
     },
-    "image": "assets/disciplines/spin-v2.webp",
-    "imageAlt": "Spin balıkçılık ekipmanları",
-    "caption": "Bir sonraki avına hazır ol."
+    "image": "assets/home/category-reel-v1.png",
+    "imageAlt": "Daiwa AIRITY SF olta makinesi",
+    "caption": "DAIWA · AIRITY SF"
   },
   "categories": {
     "title": "Ne arıyorsun?",
@@ -79,7 +79,7 @@
   },
   "featured": {
     "title": "Mağazalardan seçtiklerimiz",
-    "description": "Farklı ihtiyaçlar, bir arada.",
+    "description": "Bir sonraki avın için özenle seçilmiş ekipmanlar.",
     "action": {
       "label": "Mağaza ürünleri",
       "href": "#catalog?kind=store"

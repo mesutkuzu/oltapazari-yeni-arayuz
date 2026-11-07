@@ -53,7 +53,7 @@ node checks/account.cjs
 node checks/homepage.cjs
 ```
 
-Beş kontrol dosyasında 104 otomatik kontrol geçmektedir. Bunlar kullanıcı araştırması veya bağımsız erişilebilirlik sertifikası değildir. Güncel tarayıcı doğrulamaları [QA.md](QA.md), tasarım kararları ve araştırma kaynakları [UX-REVIEW.md](UX-REVIEW.md) dosyasındadır.
+Güncel otomatik kontrol sonuçları [QA.md](QA.md) dosyasındadır. Bunlar kullanıcı araştırması veya bağımsız erişilebilirlik sertifikası değildir. Güncel tarayıcı doğrulamaları [QA.md](QA.md), tasarım kararları ve araştırma kaynakları [UX-REVIEW.md](UX-REVIEW.md) dosyasındadır.
 
 
 Son etkileşim düzenlemeleri: kart ve detay fotoğrafında 44 × 44 px kalp düğmesi; karttan doğrudan sepete ekleme; karşılaştırma bağlantısı ilgili ürün alanında (sayfanın üzerine binen sürekli çubuk yok). Kaynaktaki tüm gözlenen galeri fotoğrafları aktarılmıştır. 11 ürün sayfasındaki 16 alışveriş değerlendirmesi, maskeli yazarlar ve üç ayrı değerlendirme ölçütüyle korunmuştur; genel ürün puanı üretilmemiştir. Bildirim tercihi, ürün bağlantısını kopyalama ve değerlendirme taslağı arayüzleri de yereldir.
@@ -77,3 +77,17 @@ Favorilere erişim: kart ve detay kalplerine ek olarak masaüstü başlığında
 ## Mobil gezinme — sürüm 8
 
 Mobil alt menüde seçili sekme dolu mavi ikon, renkli zemin ve 280 ms kayan vurgu ile gösterilir. Diğer ikonlar çizgisel kalır. Hareket azaltma tercihi animasyonu kapatır. Mobil başlıktaki yinelenen Favorilerim kaldırıldı; masaüstü kısayolu korunur. Filtre, karşılaştırma ve seçim yardımcısı Kategoriler grubunda; hesap ve satıcı ekranları Hesabım grubunda gösterilir.
+
+
+## Vitrin sürümü 9 ve yayın öncesi inceleme
+
+Deniz mavisi karşılama, DM Serif Display başlıkları ve daha temiz katalog fotoğrafları `vitrine.css` ile uygulanır. Dört ürünün kart görseli `displayImage` alanında seçilir; özgün galeri ve ürün bilgileri korunur. Alternatif kart fotoğrafı açılamazsa özgün fotoğrafa bir kez dönülür.
+
+İncelemede küçük metin kontrastı, koyu alanda klavye odağı, tablet menüsündeki Av türleri bağlantısı ve düzeltilmiş teslimat alanlarında kalan hata yazıları giderildi. Mobil sekme animasyonu ve üstte yinelenen Favorilerim'in kaldırılması korunur.
+
+
+## Kayıtlı adres akışı ve KMK devri
+
+Teslimatta kayıtlı adres seçilebilir veya **Bu adresi adreslerime kaydet** ile başlık verilerek adres defterine eklenebilir. Adreslerim'de düzenleme, silme, varsayılan seçme ve teslimatta kullanma desteklenir. Önizleme yalnız açık oturum belleği kullanır; gerçek hesap/veritabanı bağlantısı yoktur ve kişisel adresler kalıcı tarayıcı kaydına yazılmaz.
+
+KMK ekibi için alan sözleşmesi, kullanıcı/adres sahipliği, CRUD, varsayılan, tekrar kayıt önleme, hata durumları ve geçmiş sipariş adres kopyası gereksinimleri [ADDRESS-INTEGRATION.md](ADDRESS-INTEGRATION.md) dosyasında verilmiştir. Son doğrulama: 108 otomatik kontrol, ayrıca mobil gerçek etkileşimler ve kritik ekran genişliği kontrolleri.

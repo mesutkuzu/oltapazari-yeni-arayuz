@@ -1,3 +1,13 @@
+# Vitrin sürümü 9 — derin inceleme
+
+7 Kasım 2026. Yeni vitrin için kod, veri, erişilebilirlik ve alışveriş akışları ayrı incelemelerden geçti. Küçük metinler beyazda 5,16:1, sayfa zemininde 4,89:1 kontrast veren renge taşındı; koyu karşılama alanındaki odak göstergesi 10,54:1 oldu. Satıcı bağlantıları 32 px yüksekliğe çıkarıldı, mobil kategori etiketleri en az 12 px oldu. 601–850 px aralığında Av türleri bağlantısını yanlışlıkla gizleyen eski seçici etkisi giderildi.
+
+Gerçek mobil etkileşimde eksik varyant uyarısı, seçimden sonra uyarının temizlenmesi, ürün sayfasında kalıp sepete ekleme, Hemen al ile adedi tekrar artırmadan teslimata geçiş, farklı fatura adresi ve varyantın sipariş kontrolünde korunması denetlendi. Teslimat alanı düzeltildiğinde eski hata yazısının kalması giderildi.
+
+Yeni vitrin verisinde yalnız dört görüntü seçimi değişti; ürün fiyatı, stok ve seçenekler değiştirilmedi. Bunlar kaynak fotoğraf galerileri veya daha önce hazırlanmış ürün kesitidir. KMK üretim entegrasyonu halen devir kapsamındadır; önizleme gerçek sipariş, ödeme veya üyelik oluşturmaz.
+
+---
+
 # 7 Kasım 2026 — sürüm 7 ek incelemesi
 
 Bu turda kaynak site, yerel kod ve mobil/masaüstü önizleme birlikte incelendi. Ana görev ürün bulmak, doğru seçeneği seçmek ve satın alma adımlarını anlamak olarak düzenlendi.

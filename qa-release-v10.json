@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-07",
+  "checks": [
+    {
+      "h1": 1,
+      "inputFont": "16px",
+      "savedAddressSelected": true,
+      "screen": "saved-address-checkout",
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "h1": 1,
+      "inputFont": "16px",
+      "savedAddressSelected": true,
+      "screen": "saved-address-checkout",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "inputFont": "16px",
+      "savedAddressSelected": true,
+      "screen": "saved-address-checkout",
+      "scrollWidth": 600,
+      "width": 600
+    },
+    {
+      "h1": 1,
+      "inputFont": "16px",
+      "savedAddressSelected": true,
+      "screen": "saved-address-checkout",
+      "scrollWidth": 601,
+      "width": 601
+    },
+    {
+      "h1": 1,
+      "inputFont": "16px",
+      "savedAddressSelected": true,
+      "screen": "saved-address-checkout",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "h1": 1,
+      "inputFont": "16px",
+      "savedAddressSelected": true,
+      "screen": "saved-address-checkout",
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "headerActions": "none",
+      "mobileNav": "flex",
+      "screen": "home",
+      "scrollWidth": 320,
+      "techniquesVisible": "none",
+      "width": 320
+    },
+    {
+      "h1": 1,
+      "headerActions": "none",
+      "mobileNav": "flex",
+      "screen": "home",
+      "scrollWidth": 390,
+      "techniquesVisible": "none",
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "headerActions": "none",
+      "mobileNav": "flex",
+      "screen": "home",
+      "scrollWidth": 600,
+      "techniquesVisible": "none",
+      "width": 600
+    },
+    {
+      "h1": 1,
+      "headerActions": "flex",
+      "mobileNav": "none",
+      "screen": "home",
+      "scrollWidth": 601,
+      "techniquesVisible": "flex",
+      "width": 601
+    },
+    {
+      "h1": 1,
+      "headerActions": "flex",
+      "mobileNav": "none",
+      "screen": "home",
+      "scrollWidth": 768,
+      "techniquesVisible": "flex",
+      "width": 768
+    },
+    {
+      "h1": 1,
+      "headerActions": "flex",
+      "mobileNav": "none",
+      "screen": "home",
+      "scrollWidth": 1280,
+      "techniquesVisible": "flex",
+      "width": 1280
+    }
+  ]
+}
