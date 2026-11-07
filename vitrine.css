@@ -108,10 +108,10 @@ h1, h2, h3 { letter-spacing: -.55px; }
 .simple-product .price { color: #173e4d; font-size: 26px; font-weight: 700; letter-spacing: -.5px; font-variant-numeric: tabular-nums; }
 .simple-product .old-price { color: #5e7079; font-size: 12px; }
 .simple-product .price-row { min-height: 52px; }
-.simple-product .card-buy { min-height: 44px; margin-top: 15px; font-size: 14px; font-weight: 600; background: white; border: 1px solid #bfcfd7; color: #235d78; border-radius: 6px; }
-.simple-product .card-buy:hover { background: #235d78; border-color: #235d78; color: white; box-shadow: none; }
+.simple-product .card-buy { min-height: 44px; margin-top: 15px; font-size: 14px; font-weight: 600; background: var(--blue); border: 1px solid var(--blue); color: white; border-radius: 6px; }
+.simple-product .card-buy:hover { background: var(--blue-dark); border-color: var(--blue-dark); color: white; box-shadow: none; }
 .simple-product .card-buy:disabled { background: #f0f3f3; border-color: #e4e9e9; color: #7c8b91; }
-.simple-product .card-buy.added { background: #eaf3ed; color: #246447; border-color: #bfd4c7; }
+.simple-product .card-buy.added { background: #246447; color: white; border-color: #246447; }
 .simple-discount { color: #3e6a59; background: #edf4ed; border-radius: 5px; font-size: 11px; padding: 6px 9px; }
 .card-favorite { box-shadow: none; border-color: #e2e8e9; }
 .shop-paths { gap: 18px; margin: 34px 0; }

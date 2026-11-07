@@ -1,3 +1,9 @@
+# Buton görünürlüğü — sürüm 11
+
+7 Kasım 2026. Ürün kartlarının işlem düğmeleri varsayılan durumda koyu mavi/beyaz yazı, hover durumunda daha koyu mavi olarak düzenlendi. Sepete eklendi geri bildirimi dolu yeşil/beyaz yazı; stok dışı düğmeler gri/pasif kalır. İşlevsel JavaScript değiştirilmedi.
+
+---
+
 # Yayın öncesi derin inceleme — sürüm 10
 
 7 Kasım 2026. Son dosyalarda **108/108 otomatik kontrol geçti**: filtre 19, akış 23, ürün/mağaza 26, hesap 24, ana sayfa 16. Sözdizimi ve `git diff --check` temiz.
