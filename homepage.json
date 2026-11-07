@@ -99,12 +99,14 @@
         "imageAlt": "",
         "imageFrame": "contain"
       }
-    ]
+    ],
+    "eyebrow": "EKİPMAN KATEGORİLERİ",
+    "description": "Aradığın ekipmana doğru yerden başla."
   },
   "deals": {
     "eyebrow": "SEÇİLİ İNDİRİMLER",
     "title": "Fırsat Avı",
-    "description": "Takımını tamamlamak için iyi bir fırsat.",
+    "description": "Seçili ekipmanlarda fiyat avantajlarını keşfet.",
     "action": {
       "label": "Tüm fırsatlar",
       "href": "#catalog?deal=1"
@@ -113,7 +115,7 @@
   },
   "featured": {
     "title": "Mağazalardan seçtiklerimiz",
-    "description": "Bir sonraki avın için özenle seçilmiş ekipmanlar.",
+    "description": "Bir sonraki avın için farklı mağazalardan ürünler.",
     "action": {
       "label": "Mağaza ürünleri",
       "href": "#catalog?kind=store"
@@ -127,10 +129,10 @@
   },
   "paths": [
     {
-      "title": "Avına göre seç",
-      "description": "LRF, spin, surf ve diğer av türleri için ekipmanlar.",
-      "href": "#techniques",
-      "icon": "compass"
+      "title": "Karar vermeden karşılaştır",
+      "description": "Seçtiğin ürünlerin özelliklerini yan yana incele.",
+      "href": "#compare",
+      "icon": "compare"
     },
     {
       "title": "Balıkçıdan balıkçıya",
@@ -148,11 +150,72 @@
     }
   },
   "assistance": {
-    "title": "Seçim yaparken yardıma mı ihtiyacın var?",
-    "description": "İki kısa soruyla sana uygun ekipman grubundan başlayalım.",
+    "title": "Avına uygun ekipmanı birlikte bulalım.",
+    "description": "Av yerini ve deneyimini seç; ekipman aramaya doğru yerden başla.",
     "action": {
-      "label": "Birlikte seçelim",
+      "label": "Seçim yardımcısını aç",
       "href": "#finder"
     }
+  },
+  "serviceLinks": [
+    {
+      "title": "Mağazaları tanı",
+      "description": "Satıcıları ve ürünlerini incele",
+      "href": "#stores",
+      "icon": "store"
+    },
+    {
+      "title": "Kargo ve iade",
+      "description": "Koşulları önceden öğren",
+      "href": "#info?path=iptal-ve-iade-politikasi&title=%C4%B0ptal%20ve%20iade",
+      "icon": "truck"
+    },
+    {
+      "title": "Avına göre seçim",
+      "description": "Ekipman aramaya doğru başla",
+      "href": "#finder",
+      "icon": "compass"
+    },
+    {
+      "title": "Yardım merkezi",
+      "description": "Sorularına yanıt bul",
+      "href": "#help",
+      "icon": "chat"
+    }
+  ],
+  "discovery": {
+    "eyebrow": "AV TÜRÜNE GÖRE KEŞFET",
+    "title": "Avın nerede başlıyor?",
+    "description": "Av yerine uygun ekipmanları bir arada keşfet.",
+    "action": {
+      "label": "Tüm av türleri",
+      "href": "#techniques"
+    },
+    "items": [
+      {
+        "eyebrow": "KIYI AVI",
+        "title": "Kıyının ritmini yakala",
+        "description": "Spin ve LRF için kamış, makine ve yemler.",
+        "href": "#discipline?name=Spin",
+        "image": "assets/home/hero-coast-v1.jpg",
+        "imageAlt": "Gün doğumunda Ege kıyısındaki kayalıklardan olta atan balıkçı"
+      },
+      {
+        "eyebrow": "TATLI SU",
+        "title": "Göl kenarında yerin hazır",
+        "description": "Sazan avına uygun ekipmanları incele.",
+        "href": "#discipline?name=Sazan+av%C4%B1",
+        "image": "assets/home/hero-lake-v1.jpg",
+        "imageAlt": "Sisli orman gölünde ahşap iskeleden olta atan balıkçı"
+      },
+      {
+        "eyebrow": "TEKNE AVI",
+        "title": "Rotanı açık denize çevir",
+        "description": "Tekne avı için takımını tamamla.",
+        "href": "#discipline?name=Tekne+av%C4%B1",
+        "image": "assets/home/hero-boat-v1.jpg",
+        "imageAlt": "Sabah ışığında Ege Denizindeki küçük tekneden olta atan balıkçı"
+      }
+    ]
   }
 }

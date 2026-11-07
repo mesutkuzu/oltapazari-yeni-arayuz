@@ -112,3 +112,16 @@ Bu sonuçlar çalışan arayüz önizlemesini doğrular. Gerçek müşterilerle 
 `qa-header-v5.json`: dört genişlikte 20 ek kontrol. Menü düğmesinin aramayla aynı satırda ve aramanın solunda kalması, sol panelin taşmaması ve Escape ile kapanması denetlendi. Kategori ve av türleri arasındaki görünür sekmeler; menüden Av türleri seçiminin normal sayfa açması tarayıcıda doğrulandı. `qa-menu-v4.json` ara düzenin arşividir; son konum aramanın soludur.
 
 `qa-favorites-v6.json`: dört genişlikte favori kısayolunun başlıkta görünürlüğü, menü panelinde kaydırmadan görünmesi ve panelden favori listesine geçiş kontrol edildi.
+
+
+## Kurumsal sürüm doğrulaması — 7 Kasım 2026
+
+- Filtreler: 19; alışveriş akışları: 23; vitrin/ürün: 26; hesap/adres: 24; ana sayfa/içerik güvenliği: 20. Toplam **112 kontrol geçti**.
+- `app.js`, `storefront.js`, `account-ui.js` ve `hero-slider.js` sözdizimi kontrollerinden geçti.
+- Tarayıcı genişlikleri: 320, 390, 768 ve 1440 px. İncelenen sayfalarda yatay taşma bulunmadı. Yüklenmiş katalog ve ana sayfa görsellerinde kırık dosya görülmedi; konsol hata/uyarısı gözlenmedi.
+- Spin + stok filtresi 51 ürün verdi; etkin filtreler korundu. `stradic` araması 6 ürün verdi; fiyat artan sıralaması 13.994, 13.994, 13.994, 13.994, 14.320, 15.000 TL olarak doğrulandı.
+- Favoriye ekleme/listeleme/çıkarma, ikinci galeri fotoğrafını seçme, sepete ekleme ve adet artırma gerçek tarayıcı etkileşimleriyle denendi. Test için eklenen ürün ve favori kaldırıldı.
+- Boş teslimat formu kontrol adımına geçmedi; 5 alan hata durumuna geçti. Önizleme açıklaması adres girişinden önce görünür kaldı.
+- Mobil menü ve filtre çekmecesi Escape ile kapandı; odak ilgili açma kontrolüne geri döndü. Slider sağ yön tuşuyla ikinci slayda geçti; tek etkin slayt korundu.
+- Mobil hesap karşılama alanı, dar metin sütunu oluşturmayacak biçimde düzeltildi. 320 px'de slider eylemleri aynı satıra sığar; kontroller görsel sınırları içinde kalır.
+- Bu kontroller bağımsız erişilebilirlik sertifikası veya gerçek ödeme/sipariş servisinin doğrulanması anlamına gelmez.

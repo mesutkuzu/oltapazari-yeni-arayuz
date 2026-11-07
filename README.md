@@ -98,3 +98,14 @@ KMK ekibi için alan sözleşmesi, kullanıcı/adres sahipliği, CRUD, varsayıl
 İlk slayt `homepage.json` içindeki `hero` alanıdır; `hero.slides` ek slaytları içerir (en fazla dört ek slayt). Başlık, açıklama, görsel, alt metin ve iki bağlantı her slaytta düzenlenebilir. Üç sahne ImageGen ile üretilmiş temsili balıkçılık görselleridir; varlıklar ve üretim istemleri `assets/home/README.md` içindedir.
 
 Geçişler 7 saniyede bir yapılır. Oklar, slayt göstergeleri, klavye yön tuşları ve yatay dokunma hareketi desteklenir. Fare slider üzerindeyken, klavye odağı içerideyken veya sekme gizliyken otomatik geçiş bekler. Elle slayt seçildiğinde durur; oynat düğmesiyle yeniden açılabilir. Hareket azaltma tercihinde otomatik geçiş kapalı başlar.
+
+
+## Kurumsal arayüz — 7 Kasım 2026
+
+`corporate.css`, mevcut HTML/CSS/JavaScript yapısının üstünde ortak renk, tipografi, kart, form ve gezinme sistemini tanımlar. Üst arama alanı ve menü, ürün kartları, kategori/katalog, ürün detayı, sepet ve hesap ekranları aynı tasarım dilini kullanır. Marka adları kaynak yazımıyla korunur; kartlarda marka, satıcı ve kaynak stok durumu ayrı gösterilir.
+
+Ana sayfadaki alışveriş bilgi bağlantıları `homepage.json` içindeki `serviceLinks` alanından; üç av türü kartı `discovery` alanından yönetilir. Bu alanlar da bağlantı, görsel, metin ve ikon doğrulamasından geçer. İlk slayt `hero`, ek slaytlar `hero.slides` alanındadır. JSON ayarları okunamadığında gömülü güvenli varsayılanlar kullanılır.
+
+DM Sans ve Manrope, `fonts.css` ve `assets/fonts/` üzerinden yerel sunulur. Google Fonts ağ isteği kaldırılmıştır; SIL OFL lisansları font dosyalarıyla birlikte tutulur. Mevcut üç fotogerçekçi slider görseli yeniden kullanılır; logo ve katalog verileri korunur.
+
+Son doğrulama: 112 otomatik kontrol; 320, 390, 768 ve 1440 piksel genişliklerde tarayıcı incelemesi. Arama/sıralama, birleşik filtreler, favoriler, galeri, sepet adedi, teslimat doğrulaması ve klavye odağı kontrol edilmiştir. Gerçek sipariş/ödeme veya kalıcı hesap servisi eklenmemiştir; önizleme açıklamaları korunur.
