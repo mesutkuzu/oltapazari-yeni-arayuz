@@ -1,5 +1,7 @@
 # Kategori fotoğrafı
 
+Ana sayfadaki üç slider görseli yerleşik ImageGen aracıyla üretilmiş temsili, fotogerçekçi balıkçılık sahneleridir. PNG asılları korunur; web varlıkları JPEG biçimindedir. `hero-coast-v1.jpg` kıyı avı, `hero-lake-v1.jpg` sisli göl, `hero-boat-v1.jpg` tekne avı sahnesidir.
+
 `category-reel-v1.png`, katalogdaki `assets/detail-fffe1c986027e23199.webp` fotoğrafından arka planı temizlenerek hazırlanmıştır. Kaynak fotoğraf korunmuştur. Bu varlık kategori tanıtımında kullanılır; ürün detay fotoğrafları değiştirilmedi.
 
 Yöntem: yerleşik görsel düzenleme aracı, şeffaf arka plan.

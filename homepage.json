@@ -1,20 +1,54 @@
 {
   "version": 1,
   "hero": {
-    "eyebrow": "TÜRKİYE’NİN BALIKÇILIK PAZARYERİ",
-    "title": "Doğru ekipman.\nDaha güzel bir av.",
-    "description": "İlk oltandan takımının eksik parçasına.\nAradığın ekipmanı kolayca bul.",
+    "eyebrow": "KIYIDAN AV · SPIN & LRF",
+    "title": "İyi bir gün,\nkıyıda başlar.",
+    "description": "Denizin sesine, sabahın ilk atışına.\nBir sonraki avın için ihtiyacın olan her şey burada.",
     "primaryAction": {
-      "label": "Ürünleri keşfet",
-      "href": "#catalog"
+      "label": "Kıyı ekipmanlarını keşfet",
+      "href": "#discipline?name=Spin"
     },
     "secondaryAction": {
-      "label": "Seçim yardımı",
-      "href": "#finder"
+      "label": "Tüm ürünler",
+      "href": "#catalog"
     },
-    "image": "assets/home/category-reel-v1.png",
-    "imageAlt": "Daiwa AIRITY SF olta makinesi",
-    "caption": "DAIWA · AIRITY SF"
+    "image": "assets/home/hero-coast-v1.jpg",
+    "imageAlt": "Gün doğumunda Ege kıyısındaki kayalıklardan olta atan balıkçı",
+    "caption": "Günün ilk atışı",
+    "slides": [
+      {
+        "eyebrow": "TATLI SU · SAZAN AVI",
+        "title": "Biraz sessizlik.\nBiraz heyecan.",
+        "description": "Şehrin ritmini geride bırak.\nGöl kenarındaki yerin, ekipmanınla hazır.",
+        "primaryAction": {
+          "label": "Tatlı su ekipmanları",
+          "href": "#discipline?name=Sazan+av%C4%B1"
+        },
+        "secondaryAction": {
+          "label": "Av türlerini keşfet",
+          "href": "#techniques"
+        },
+        "image": "assets/home/hero-lake-v1.jpg",
+        "imageAlt": "Sisli orman gölünde ahşap iskeleden olta atan balıkçı",
+        "caption": "Doğanın ritminde"
+      },
+      {
+        "eyebrow": "AÇIK DENİZ · TEKNE AVI",
+        "title": "Mavinin peşinden,\nbiraz daha uzağa.",
+        "description": "Yeni rotalar, yeni hikâyeler.\nTekne avına uygun ekipmanlarla denize açıl.",
+        "primaryAction": {
+          "label": "Tekne avını keşfet",
+          "href": "#discipline?name=Tekne+av%C4%B1"
+        },
+        "secondaryAction": {
+          "label": "Seçim yardımı",
+          "href": "#finder"
+        },
+        "image": "assets/home/hero-boat-v1.jpg",
+        "imageAlt": "Sabah ışığında Ege Denizindeki küçük tekneden olta atan balıkçı",
+        "caption": "Ufkun ötesine"
+      }
+    ]
   },
   "categories": {
     "title": "Ne arıyorsun?",

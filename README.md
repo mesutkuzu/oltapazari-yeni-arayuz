@@ -2,7 +2,7 @@
 
 Olta Pazarı’nın orijinal logosunu ve mavi renklerini koruyan, alıcıya odaklı mobil ve masaüstü arayüz. Yayın: [GitHub Pages](https://mesutkuzu.github.io/oltapazari-yeni-arayuz/).
 
-Ana sayfa kısa karşılama, **Ne arıyorsun?** altında altı görsel kategori, **Fırsat Avı** ve **Mağazalardan seçtiklerimiz** akışıyla ilerler. Kategori kartları gerçek ürün fotoğrafları kullanır; av türleri ayrıca keşfedilir. Menü, aramanın hemen solundaki düğmeden soldan açılan çekmecedir. Hesap, kategori ve sepet normal sayfa yollarıyla açılır. Filtreler, ürün listesinin bağlamını koruyan bir çekmecede açılır.
+Ana sayfa üç fotoğraflı, mobil uyumlu slider, **Ne arıyorsun?** altında altı görsel kategori, **Fırsat Avı** ve **Mağazalardan seçtiklerimiz** akışıyla ilerler. Kategori kartları gerçek ürün fotoğrafları kullanır; av türleri ayrıca keşfedilir. Menü, aramanın hemen solundaki düğmeden soldan açılan çekmecedir. Hesap, kategori ve sepet normal sayfa yollarıyla açılır. Filtreler, ürün listesinin bağlamını koruyan bir çekmecede açılır.
 
 ## Çalışan arayüz
 
@@ -91,3 +91,10 @@ Deniz mavisi karşılama, DM Serif Display başlıkları ve daha temiz katalog f
 Teslimatta kayıtlı adres seçilebilir veya **Bu adresi adreslerime kaydet** ile başlık verilerek adres defterine eklenebilir. Adreslerim'de düzenleme, silme, varsayılan seçme ve teslimatta kullanma desteklenir. Önizleme yalnız açık oturum belleği kullanır; gerçek hesap/veritabanı bağlantısı yoktur ve kişisel adresler kalıcı tarayıcı kaydına yazılmaz.
 
 KMK ekibi için alan sözleşmesi, kullanıcı/adres sahipliği, CRUD, varsayılan, tekrar kayıt önleme, hata durumları ve geçmiş sipariş adres kopyası gereksinimleri [ADDRESS-INTEGRATION.md](ADDRESS-INTEGRATION.md) dosyasında verilmiştir. Son doğrulama: 108 otomatik kontrol, ayrıca mobil gerçek etkileşimler ve kritik ekran genişliği kontrolleri.
+
+
+## Fotoğraflı ana sayfa slider’ı
+
+İlk slayt `homepage.json` içindeki `hero` alanıdır; `hero.slides` ek slaytları içerir (en fazla dört ek slayt). Başlık, açıklama, görsel, alt metin ve iki bağlantı her slaytta düzenlenebilir. Üç sahne ImageGen ile üretilmiş temsili balıkçılık görselleridir; varlıklar ve üretim istemleri `assets/home/README.md` içindedir.
+
+Geçişler 7 saniyede bir yapılır. Oklar, slayt göstergeleri, klavye yön tuşları ve yatay dokunma hareketi desteklenir. Fare slider üzerindeyken, klavye odağı içerideyken veya sekme gizliyken otomatik geçiş bekler. Elle slayt seçildiğinde durur; oynat düğmesiyle yeniden açılabilir. Hareket azaltma tercihinde otomatik geçiş kapalı başlar.
