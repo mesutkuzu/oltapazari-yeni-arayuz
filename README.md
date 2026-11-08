@@ -51,6 +51,7 @@ node checks/flows.cjs
 node checks/storefront.cjs
 node checks/account.cjs
 node checks/homepage.cjs
+node checks/sidebar.cjs
 ```
 
 Güncel otomatik kontrol sonuçları [QA.md](QA.md) dosyasındadır. Bunlar kullanıcı araştırması veya bağımsız erişilebilirlik sertifikası değildir. Güncel tarayıcı doğrulamaları [QA.md](QA.md), tasarım kararları ve araştırma kaynakları [UX-REVIEW.md](UX-REVIEW.md) dosyasındadır.
@@ -109,3 +110,14 @@ Ana sayfadaki alışveriş bilgi bağlantıları `homepage.json` içindeki `serv
 DM Sans ve Manrope, `fonts.css` ve `assets/fonts/` üzerinden yerel sunulur. Google Fonts ağ isteği kaldırılmıştır; SIL OFL lisansları font dosyalarıyla birlikte tutulur. Mevcut üç fotogerçekçi slider görseli yeniden kullanılır; logo ve katalog verileri korunur.
 
 Son doğrulama: 112 otomatik kontrol; 320, 390, 768 ve 1440 piksel genişliklerde tarayıcı incelemesi. Arama/sıralama, birleşik filtreler, favoriler, galeri, sepet adedi, teslimat doğrulaması ve klavye odağı kontrol edilmiştir. Gerçek sipariş/ödeme veya kalıcı hesap servisi eklenmemiştir; önizleme açıklamaları korunur.
+
+
+## Sol kategori menüsü ve filtreler
+
+`sidebar.js` ve `sidebar.css`, alışveriş sayfalarına masaüstünde kalıcı bir sol panel ekler. Ana sayfa, kategori dizini, av türleri, mağaza ve marka ekranlarında aramalı kategori menüsü; ürün listelerinde kategori, fiyat, marka, av türü ve stok filtreleri kullanılır. 116 düğümlü mevcut kategori ağacı korunur. Kategori ve filtre grupları açılıp kapanabilir.
+
+Ürün listesinde kategori değiştirilirken arama, çoklu marka, fiyat, stok, satıcı ve favori kapsamı korunur; sayfalama sıfırlanır. Alt kategori bağlantıları da etkin filtreleri taşır. Hatalı fiyat/tarih aralığıyla kategori değişimi engellenir.
+
+1100 px ve altında sol panel gizlenir; sol menü çekmecesinde kategori araması, ayrı filtre çekmecesinde ürün filtreleri kullanılır. Masaüstü ve mobil filtre formlarının kimlikleri ayrıdır; canlı sonuç önizlemesi yalnız ilgili forma uygulanır. Menüde Escape, arama alanından da paneli kapatıp odağı açan düğmeye döndürür.
+
+Son otomatik kontroller: 118. Tarayıcıda kategori araması, çoklu marka ile kategori değişimi, geçersiz fiyat, sıfırlama, mobil filtre önizlemesi/uygulaması, menü klavye odağı ve 320/390/1100/1101/1440 px genişlikler doğrulandı.

@@ -125,3 +125,14 @@ Bu sonuçlar çalışan arayüz önizlemesini doğrular. Gerçek müşterilerle 
 - Mobil menü ve filtre çekmecesi Escape ile kapandı; odak ilgili açma kontrolüne geri döndü. Slider sağ yön tuşuyla ikinci slayda geçti; tek etkin slayt korundu.
 - Mobil hesap karşılama alanı, dar metin sütunu oluşturmayacak biçimde düzeltildi. 320 px'de slider eylemleri aynı satıra sığar; kontroller görsel sınırları içinde kalır.
 - Bu kontroller bağımsız erişilebilirlik sertifikası veya gerçek ödeme/sipariş servisinin doğrulanması anlamına gelmez.
+
+
+## Sol menü ve filtre paneli doğrulaması
+
+- Toplam 118 otomatik kontrol: filtreler 19, akışlar 23, vitrin/ürün 27, hesap/adres 24, ana sayfa 20, sol menü 5.
+- `misina` kategori araması dört gerçek kategori; mobil `kamış` araması dokuz gerçek kategori döndürdü.
+- Daiwa + Shimano, 1.000–50.000 TL ve stok filtresi; Olta Makineleri kategorisine geçişte korundu, 75 ürün gösterildi.
+- Geçersiz fiyat aralığı uygulama düğmesini devre dışı bıraktı ve kategori değişimini engelledi. Sıfırlama sonrası kategori kapsamı korundu; önizleme ve liste 101 üründe eşleşti.
+- Mobilde Spin + stok seçimi için önizleme ve sonuç 26 üründe eşleşti. Masaüstü ve mobil formlar aynı DOM içindeyken tekrarlanan kimlik bulunmadı.
+- Menü arama alanından tek Escape ile kapandı, odak Menüyü aç düğmesine döndü.
+- 1100 px'de panel gizli, 1101 px'de görünür. İncelenen 320/390/1100/1101/1440 px görünümlerde yatay taşma ve konsol hata/uyarısı görülmedi.
